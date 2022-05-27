@@ -5,6 +5,7 @@ module.exports = {
       name: `Kyle Mathews`,
       summary: `who lives and works in San Francisco building useful things.`,
     },
+    pathPrefix: "/10days96.github.io",
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
