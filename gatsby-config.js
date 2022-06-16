@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Dev.HS`,
     author: {
       name: `Kyle Mathews`,
       summary: `who lives and works in San Francisco building useful things.`,
@@ -13,6 +13,7 @@ module.exports = {
     },
   },
   plugins: [
+    `gatsby-plugin-typescript`,    
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,

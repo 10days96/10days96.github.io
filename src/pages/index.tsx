@@ -1,17 +1,30 @@
+// If you don't want to use TypeScript you can delete this file!
 import * as React from "react"
-import { Link, graphql } from "gatsby"
+import { PageProps, Link, graphql, Page } from "gatsby"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
+import Sidebar from "../components/sidebar"
 
-const BlogIndex = ({ data, location }) => {
-  const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+type DataProps = {
+  site: {
+    siteMetadata: {
+      title: string
+    }
+  },
+  allMarkdownRemark:{
+    nodes: any
+  }
+}
 
-  if (posts.length === 0) {
-    return (
-      <Layout location={location} title={siteTitle}>
+const BlogIndex = ({data, location}: PageProps<DataProps>) => {
+  const sitleTitle: string = data.site.siteMetadata?.title || `Title`
+  const posts: any = data.allMarkdownRemark.nodes
+   
+  if(posts.length === 0){
+    return(
+      <Layout location={location} title={sitleTitle}>
         <Seo title="All posts" />
         <Bio />
         <p>
@@ -22,16 +35,17 @@ const BlogIndex = ({ data, location }) => {
       </Layout>
     )
   }
-
-  return (
-    <Layout location={location} title={siteTitle}>
+  
+  
+  return(
+    <Layout location={location} title={sitleTitle}>
+      <Sidebar />
       <Seo title="All posts" />
-      <Bio />
-      <ol style={{ listStyle: `none` }}>
+      <ol style={{ listStyle: `none`}}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
-          return (
+          return(
             <li key={post.fields.slug}>
               <article
                 className="post-list-item"
@@ -44,12 +58,12 @@ const BlogIndex = ({ data, location }) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
-                  <small>{post.frontmatter.date}</small>
+                  <small>{post.frontmatter.data}</small>
                 </header>
                 <section>
                   <p
                     dangerouslySetInnerHTML={{
-                      __html: post.frontmatter.description || post.excerpt,
+                      __html: post.frontmatter.description  || post.excerpt,
                     }}
                     itemProp="description"
                   />
@@ -61,6 +75,7 @@ const BlogIndex = ({ data, location }) => {
       </ol>
     </Layout>
   )
+
 }
 
 export default BlogIndex

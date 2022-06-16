@@ -93,6 +93,10 @@ hr {
   border: 0;
 }
 
+main{
+  display: flex;
+}
+
 /* Heading */
 
 h1,
@@ -169,6 +173,7 @@ p {
 
 ul,
 ol {
+  flex: 7;
   margin-left: var(--spacing-0);
   margin-right: var(--spacing-0);
   padding: var(--spacing-0);
@@ -291,6 +296,14 @@ a:focus {
   margin-bottom: var(--spacing-16);
 }
 
+.sidebar{
+  display: 4;
+  margin-right: var(--spacing-8);
+  margin-top: var(--spacing-12);
+  margin-bottom: var(--spacing-2);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 .bio p {
   margin-bottom: var(--spacing-0);
 }
@@ -327,6 +340,7 @@ a:focus {
     margin-left: var(--spacing-0);
   }
   ul,
+
   ol {
     list-style-position: inside;
   }
