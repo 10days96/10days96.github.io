@@ -1,0 +1,141 @@
+// If you don't want to use TypeScript you can delete this file!
+import * as React from "react"
+import { PageProps, Link, graphql } from "gatsby"
+
+import BlogLayout from "../components/blogLayout"
+import Seo from "../components/seo"
+
+type DataProps = {
+  markdownRemark: {
+    frontmatter: {
+      title: string
+      date: string 
+      tags: Array<string>
+    }
+    fields:{
+      slug:string
+    }
+    html: string
+  }
+  excerpt: string
+  site:{
+    siteMetadata:{
+      title: string
+    }
+  }
+}
+
+
+const BlogPostTemplate = ({data, location}: PageProps<DataProps>) => {
+  const postTitle:string = data.markdownRemark.frontmatter.title
+  const postDate:string = data.markdownRemark.frontmatter.date
+  const postTags:Array<string> = data.markdownRemark.frontmatter.tags
+  const postExcerpt:string = data.excerpt
+  const postHtml:string = data.markdownRemark.html
+  const siteTitle:string = data.site.siteMetadata.title || `Title`
+  const { previous, next }:any = data
+
+  console.log(data.markdownRemark.frontmatter)
+
+  return(
+    <BlogLayout location={location} title={siteTitle}>
+      <Seo 
+        title={postTitle}
+        description={postTitle || postExcerpt}
+      />
+      <article
+        className="blog-post"
+        itemScope
+        itemType="http://schema.org/Article"
+      >
+        <header>
+          <h1 itemProp="headline">{postTitle}</h1>
+          <div className="tag-group">
+            <div className="tag">{postTags}</div>
+            <div className="tag">{postTags}</div>
+          </div>
+          <div className="date">
+            <span>{postDate}</span>
+          </div>
+        </header>
+
+        <section
+          dangerouslySetInnerHTML={{ __html: postHtml }}
+          itemProp="articleBody"
+        />
+        <hr />
+        <footer>
+          <nav className="blog-post-nav">
+            <ul
+              style={{
+                display: `flex`,
+                flexWrap: `wrap`,
+                justifyContent: `space-between`,
+                listStyle: `none`,
+                padding: 0,
+              }}
+            >
+              <li>
+                {previous && (
+                  <Link to={previous.fields.slug} rel="prev">
+                    ← {previous.frontmatter.title}
+                  </Link>
+                )}
+              </li>
+              <li>
+                {next && (
+                  <Link to={next.fields.slug} rel="next">
+                    {next.frontmatter.title} →
+                  </Link>
+                )}
+              </li>
+            </ul>
+          </nav>
+        </footer>
+      </article>
+    </BlogLayout>
+  )
+}
+
+export default BlogPostTemplate
+
+export const pageQuery = graphql`
+  query BlogPostBySlug(
+    $id: String
+    $previousPostId: String
+    $nextPostId: String
+  ) {
+    site {
+      siteMetadata {
+        title
+      }
+    }
+    markdownRemark(id: { eq: $id }) {
+      id
+      excerpt(pruneLength: 160)
+      html
+      frontmatter {
+        title
+        date(formatString: "MMMM DD, YYYY")
+        description
+        tags
+      }
+    }
+    previous: markdownRemark(id: { eq: $previousPostId }) {
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+      }
+    }
+    next: markdownRemark(id: { eq: $nextPostId }) {
+      fields {
+        slug
+      }
+      frontmatter {
+        title
+      }
+    }
+  }
+`

@@ -2,11 +2,11 @@ module.exports = {
   siteMetadata: {
     title: `Dev.HS`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `HS Lee`,
+      summary: `애용이 코딩한다.`,
     },
     pathPrefix: "/10days96.github.io",
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `애용이 블로그 만든다`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
       twitter: `kylemathews`,
@@ -123,7 +123,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/dog.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-react-helmet`,

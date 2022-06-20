@@ -1,9 +1,25 @@
 ---
-title: 한국어 포스팅
-date: "2015-05-01T22:12:03.284Z"
-description: "한국어는 어떻게 나올까"
+title: "[백준] 15649번 N과 M (1)"
+date: "2022-06-20"
+description: "파이썬 문제 풀이"
+tags: ["Algorithm"]
 ---
 
-한국어가 어떻게 나오는지 보자
-한국어 폰트 좀 바꿔야겠네
-ㅋㅋㅋ
+```python
+import sys
+
+N, M = map(int, sys.stdin.readline().split())
+
+def combination(com:list):
+
+    if len(com) == M:
+        print(' '.join(map(str, com)))
+        return
+
+    for i in range(1, N + 1):
+        if i in com:
+            continue
+        combination(com + [i])
+
+combination([])
+```
