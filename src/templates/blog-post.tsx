@@ -1,6 +1,7 @@
 // If you don't want to use TypeScript you can delete this file!
 import * as React from "react"
 import { PageProps, Link, graphql } from "gatsby"
+import kebabCase from "lodash.kebabcase"
 
 import BlogLayout from "../components/blogLayout"
 import Seo from "../components/seo"
@@ -11,35 +12,35 @@ type DataProps = {
   markdownRemark: {
     frontmatter: {
       title: string
-      date: string 
+      date: string
       tags: Array<string>
     }
-    fields:{
-      slug:string
+    fields: {
+      slug: string
     }
     html: string
   }
   excerpt: string
-  site:{
-    siteMetadata:{
+  site: {
+    siteMetadata: {
       title: string
     }
   }
 }
 
 
-const BlogPostTemplate = ({data, location}: PageProps<DataProps>) => {
-  const postTitle:string = data.markdownRemark.frontmatter.title
-  const postDate:string = data.markdownRemark.frontmatter.date
-  const postTags:Array<string> = data.markdownRemark.frontmatter.tags
-  const postExcerpt:string = data.excerpt
-  const postHtml:string = data.markdownRemark.html
-  const siteTitle:string = data.site.siteMetadata.title || `Title`
-  const { previous, next }:any = data
+const BlogPostTemplate = ({ data, location }: PageProps<DataProps>) => {
+  const postTitle: string = data.markdownRemark.frontmatter.title
+  const postDate: string = data.markdownRemark.frontmatter.date
+  const postTags: Array<string> = data.markdownRemark.frontmatter.tags
+  const postExcerpt: string = data.excerpt
+  const postHtml: string = data.markdownRemark.html
+  const siteTitle: string = data.site.siteMetadata.title || `Title`
+  const { previous, next }: any = data
 
-  return(
+  return (
     <BlogLayout location={location} title={siteTitle}>
-      <Seo 
+      <Seo
         title={postTitle}
         description={postTitle || postExcerpt}
       />
@@ -51,8 +52,9 @@ const BlogPostTemplate = ({data, location}: PageProps<DataProps>) => {
         <header>
           <h1 itemProp="headline">{postTitle}</h1>
           <div className="tag-group">
-            <div className="tag">{postTags}</div>
-            <div className="tag">{postTags}</div>
+            {postTags ? postTags.map(tag => (
+              <Link to={`/tags/${kebabCase(tag)}`} className="tag">{kebabCase(tag)}</Link>
+            )) : null}
           </div>
           <div className="date">
             <span>{postDate}</span>
