@@ -16,11 +16,19 @@ type DataProps = {
   allMarkdownRemark:{
     nodes: any
   }
+  markdownRemark: {
+    frontmatter: {
+      title: string
+      date: string 
+      tags: Array<string>
+    }
+  }
 }
 
 const BlogIndex = ({data, location}: PageProps<DataProps>) => {
   const sitleTitle: string = data.site.siteMetadata?.title || `Title`
   const posts: any = data.allMarkdownRemark.nodes
+  const postTags:Array<String> = data.markdownRemark.frontmatter.tags
    
   if(posts.length === 0){
     return(
@@ -58,6 +66,9 @@ const BlogIndex = ({data, location}: PageProps<DataProps>) => {
                       <span itemProp="headline">{title}</span>
                     </Link>
                   </h2>
+                  <div className="tag-group">
+                    <div className="tag">{postTags}</div>
+                  </div>
                   <small>{post.frontmatter.data}</small>
                 </header>
                 <section>
@@ -97,6 +108,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          tags
         }
       }
     }
