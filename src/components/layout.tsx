@@ -34,6 +34,7 @@ const Layout = ({ location, title, children }: PageProps<DataProps>) =>{
                 © {new Date().getFullYear()}, Built with
                 {`   `}
                 <a href="https://www.gatsbyjs.com">Gatsby</a>
+                {`    `}
                 <img src={beaver} className="beaver"/>
                 {`   `}
                 <a href="https://github.com/blackbeaver37">BlackBeaver</a>

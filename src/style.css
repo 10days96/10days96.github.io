@@ -1,4 +1,10 @@
 /* CSS Custom Properties Definitions */
+@font-face {
+  font-family: 'D2Coding';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root {
   --maxWidth-none: "none";
@@ -106,7 +112,7 @@ main{
   width: 19px;
   height: 19px;
   transform: translate(2px, 5px);
-  border-radius: 1px;
+  border-radius: 3px;
 }
 /* Heading */
 
@@ -264,6 +270,11 @@ a:focus {
 
 .global-wrapper[data-is-root-path="true"] .bio {
   margin-bottom: var(--spacing-20);
+}
+
+
+deckgo-highlight-code {
+  --deckgo-highlight-code-font-family: "D2Coding"
 }
 
 .global-header {

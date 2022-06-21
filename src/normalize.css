@@ -8,7 +8,14 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
+ @font-face {
+  font-family: 'D2Coding';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/D2Coding.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+ html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -102,7 +109,7 @@ strong {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 
-code,
+code
 kbd,
 samp {
   font-family: monospace, monospace; /* 1 */

@@ -4,6 +4,8 @@ import { PageProps, Link, graphql } from "gatsby"
 
 import BlogLayout from "../components/blogLayout"
 import Seo from "../components/seo"
+import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
+deckDeckGoHighlightElement();
 
 type DataProps = {
   markdownRemark: {
@@ -34,8 +36,6 @@ const BlogPostTemplate = ({data, location}: PageProps<DataProps>) => {
   const postHtml:string = data.markdownRemark.html
   const siteTitle:string = data.site.siteMetadata.title || `Title`
   const { previous, next }:any = data
-
-  console.log(data.markdownRemark.frontmatter)
 
   return(
     <BlogLayout location={location} title={siteTitle}>

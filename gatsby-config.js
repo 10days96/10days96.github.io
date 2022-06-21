@@ -45,9 +45,16 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
+          // `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          {
+            resolve: `gatsby-remark-highlight-code`,
+            options: {
+              terminal: "carbon",
+              theme: "base16-light",
+            },
+          },
         ],
       },
     },
@@ -126,7 +133,7 @@ module.exports = {
         icon: `src/images/dog.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-react-helmet`
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
