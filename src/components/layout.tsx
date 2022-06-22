@@ -1,18 +1,18 @@
 // If you don't want to use TypeScript you can delete this file!
 import * as React from "react"
-import {PageProps, Link } from "gatsby"
+import { PageProps, Link } from "gatsby"
 import beaver from "../images/beaver.png"
 
 type DataProps = {
     title: string
 }
 
-const Layout = ({ location, title, children }: PageProps<DataProps>) =>{
-    const rootPath:string  = `${__PATH_PREFIX__}/`
-    const isRootPath:Boolean = location.pathname === rootPath
+const Layout = ({ location, title, children }: PageProps<DataProps>) => {
+    const rootPath: string = `${__PATH_PREFIX__}/`
+    const isRootPath: Boolean = location.pathname === rootPath
     let header
 
-    if(isRootPath){
+    if (isRootPath) {
         header = (
             <h1 className="main-heading">
                 <Link to="/">{title}</Link>
@@ -26,18 +26,23 @@ const Layout = ({ location, title, children }: PageProps<DataProps>) =>{
         )
     }
 
-    return(
+    return (
         <div className="global-wrapper" data-is-root-path={isRootPath}>
             <header className="global-header">{header}</header>
+            <div className="navbar-group">
+                <Link to="/" className="navbar">blog</Link>
+                <Link to="/about" className="navbar">about</Link>
+            </div>
             <main>{children}</main>
             <footer>
                 © {new Date().getFullYear()}, Built with
                 {`   `}
                 <a href="https://www.gatsbyjs.com">Gatsby</a>
-                {`    `}
-                <img src={beaver} className="beaver"/>
+                {`    and`}
                 {`   `}
-                <a href="https://github.com/blackbeaver37">BlackBeaver</a>
+                <a href="https://blackbeaver37.github.io/fireworks">
+                    <img src={beaver} className="beaver" />
+                </a>
             </footer>
         </div>
     )

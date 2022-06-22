@@ -102,6 +102,7 @@ hr {
 
 main {
   display: flex;
+  margin-top: 0%;
 }
 
 .post {
@@ -171,7 +172,7 @@ h1>a {
 }
 
 h2>a,
-h3>a,
+/* h3>a, */
 h4>a,
 h5>a,
 h6>a {
@@ -204,6 +205,7 @@ ul li,
 ol li {
   padding-left: var(--spacing-0);
   margin-bottom: calc(var(--spacing-8) / 2);
+  /* list-style: none; */
 }
 
 li>p {
@@ -270,7 +272,7 @@ a:focus {
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
-  margin-bottom: var(--spacing-20);
+  margin-bottom: 0%;
 }
 
 
@@ -279,7 +281,7 @@ deckgo-highlight-code {
 }
 
 .global-header {
-  margin-bottom: var(--spacing-12);
+  margin-bottom: var(--spacing-2);
 }
 
 .main-heading {
@@ -316,7 +318,26 @@ deckgo-highlight-code {
 
 .bio {
   display: flex;
-  margin-bottom: var(--spacing-16);
+  flex-direction: column;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.bio>p {
+  margin-top: var(--spacing-2);
+}
+
+.navbar-group {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar {
+  color: #1a202c;
+  padding: 2px 6px;
+  margin-right: 3px;
+  text-decoration: none;
 }
 
 .sidebar {
@@ -324,7 +345,19 @@ deckgo-highlight-code {
   margin-right: var(--spacing-8);
   margin-top: var(--spacing-12);
   margin-bottom: var(--spacing-2);
-  font-family: sans-serif
+}
+
+.sidebar h6 {
+  font-size: var(--fontSize-1);
+  margin-top: var(--spacing-4);
+}
+
+.sidebar li {
+  list-style: none;
+}
+
+.sidebar a {
+  text-decoration: none
 }
 
 .tag-group {
@@ -352,10 +385,11 @@ deckgo-highlight-code {
 }
 
 .bio-avatar {
-  margin-right: var(--spacing-4);
+  /* margin-right: var(--spacing-4); */
   margin-bottom: var(--spacing-0);
   min-width: 50px;
   border-radius: 100%;
+  margin: auto;
 }
 
 .blog-post header h1 {

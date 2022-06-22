@@ -1,6 +1,7 @@
 // If you don't want to use TypeScript you can delete this file!
 import * as React from "react"
 import { PageProps, Link } from "gatsby"
+import beaver from "../images/beaver.png"
 
 type DataProps = {
     title: string
@@ -31,8 +32,13 @@ const BlogLayout = ({ location, title, children }: PageProps<DataProps>) => {
             <main className="post">{children}</main>
             <footer>
                 © {new Date().getFullYear()}, Built with
-                {` `}
+                {`   `}
                 <a href="https://www.gatsbyjs.com">Gatsby</a>
+                {`    and`}
+                {`   `}
+                <a href="https://blackbeaver37.github.io/fireworks">
+                    <img src={beaver} className="beaver" />
+                </a>
             </footer>
         </div>
     )

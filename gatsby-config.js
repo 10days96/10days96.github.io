@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Dev.HS`,
     author: {
-      name: `HS Lee`,
+      name: `HS`,
       summary: `애용이 코딩한다.`,
     },
     pathPrefix: "/10days96.github.io",
@@ -13,7 +13,7 @@ module.exports = {
     },
   },
   plugins: [
-    `gatsby-plugin-typescript`,    
+    `gatsby-plugin-typescript`,
     `gatsby-plugin-image`,
     {
       resolve: `gatsby-source-filesystem`,

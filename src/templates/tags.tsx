@@ -44,7 +44,19 @@ const Tags = ({ data, pageContext, location }: PageProps<DataProps>) => {
           const { title } = node.frontmatter
           return (
             <li key={slug}>
-              <Link to={slug}>{title}</Link>
+              <article
+                className="post-list-item"
+                itemScope
+                itemType="http://schema.org/Article"
+              >
+                <header>
+                  <h3>
+                    <Link to={slug} itemProp="url">
+                      <span itemProp="headline">{title}</span>
+                    </Link>
+                  </h3>
+                </header>
+              </article>
             </li>
           )
         })}
