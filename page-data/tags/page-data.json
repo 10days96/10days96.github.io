@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-pages-tags-tsx",
+    "path": "/tags/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Dev.HS"}},"allMarkdownRemark":{"group":[{"fieldValue":"algorithm","totalCount":4},{"fieldValue":"python","totalCount":1}]}},"pageContext":{}},
+    "staticQueryHashes": ["2841359383"]}

@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-tsx",
+    "path": "/tags/python/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Dev.HS"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/알고리즘/"},"frontmatter":{"title":"[백준] 15649번 N과 M (1)"}}}]}},"pageContext":{"tag":"python"}},
+    "staticQueryHashes": ["2841359383"]}
