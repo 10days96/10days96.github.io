@@ -15,10 +15,6 @@ type Author = {
     summary: string
 }
 
-type Social = {
-    twitter: string
-}
-
 const Bio = () => {
     const data = useStaticQuery(graphql`
         query BioQuery {
