@@ -7,7 +7,8 @@
 
 import * as React from "react"
 import { useStaticQuery, graphql } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+import profile from "../images/dog.png"
+// import { StaticImage } from "gatsby-plugin-image"
 
 type Author = {
     name: string
@@ -36,18 +37,14 @@ const Bio = () => {
     `)
 
     const author: Author = data.site.siteMetadata?.author
-    const social: Social = data.site.siteMetadata?.social
 
     return (
         <div className="bio">
-            <StaticImage
+            <img
                 className="bio-avatar"
-                layout="fixed"
-                formats={["auto", "webp", "avif"]}
-                src="../images/dog.png"
+                src={profile}
                 width={100}
                 height={100}
-                quality={95}
                 alt="Profile picture"
             />
             {author?.name && (
