@@ -3,13 +3,16 @@ module.exports = {
     title: `Dev.HS`,
     author: {
       name: `HS`,
-      summary: `애용이 코딩한다.`,
+      summary: `AI에 직관을 담고 싶은 개발자 입니다.`,
     },
     pathPrefix: "/10days96.github.io",
-    description: `애용이 블로그 만든다`,
+    description: `AI에 직관을 담고 싶은 개발자 입니다.`,
+    introduce: `숭실대학교 시스템소프트웨어 연구실에서 2년 동안 석사 과정을 지냈습니다. 주로 AI, 연구실 프로젝트 개발을 담당 하였으며 팀 리더 역할을 도맡았습니다. 업무를 파악하고 흐름을 따라가기 위해 적극적으로 연구실 일에 동참하였습니다.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     social: {
-      twitter: `kylemathews`,
+      email: `10days96@gmail.com`,
+      github: `https://github.com/10days96`,
+      blog: `https://10days96.github.io/`
     },
   },
   plugins: [

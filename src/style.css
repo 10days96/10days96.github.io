@@ -6,6 +6,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --maxWidth-none: "none";
   --maxWidth-xs: 20rem;
@@ -33,13 +47,13 @@
   --spacing-20: 5rem;
   --spacing-24: 6rem;
   --spacing-32: 8rem;
-  --fontFamily-sans: Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
+  --fontFamily-sans: "SpoqaHanSansNeo-Regular", Montserrat, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
   --font-body: var(--fontFamily-sans);
-  --font-heading: var(--fontFamily-sans);
+  --font-heading: "SpoqaHanSansNeo-Bold";
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
   --fontWeight-semibold: 600;
@@ -106,6 +120,10 @@ main {
 }
 
 .post {
+  display: block;
+}
+
+.about {
   display: block;
 }
 
@@ -407,6 +425,35 @@ deckgo-highlight-code {
 
 .gatsby-highlight {
   margin-bottom: var(--spacing-8);
+}
+
+.about-header{
+  margin-bottom: var(--spacing-2);
+}
+
+.about-profile{
+  display: flex;
+  flex-direction: row;
+  margin-right: var(--spacing-2);
+  border-radius: 2%;
+}
+
+.about-profile-img{
+  margin-right: var(--spacing-5);
+  border-radius: 2%;
+}
+
+.about-profile h3{
+  margin: var(--spacing-2);
+}
+
+.about-contact{
+  display: flex;
+  flex-direction: column;
+}
+
+.about-contact li{
+  flex-grow: 1;
 }
 
 /* Media queries */

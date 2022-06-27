@@ -1,10 +1,10 @@
-// If you don't want to use TypeScript you can delete this file!
-import * as React from "react"
-import { PageProps, Link, graphql } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import * as React from "react"
+import { PageProps, graphql } from "gatsby"
+
+import AboutLayout from "../components/aboutLayout"
+import AboutProfile from "../components/aboutProfile"
+import AboutWorkInfo from "../components/aboutWorkInfo"
 
 type DataProps = {
   site: {
@@ -19,15 +19,10 @@ const About = ({ data, location }: PageProps<DataProps>) => {
   const title: string = data.site.siteMetadata.title
 
   return (
-    <Layout title={title} location={location}>
-      <div className="bio">
-        <StaticImage
-          src="../images/dog.png"
-          alt="Profile image"
-          layout="fixed"
-        />
-      </div>
-    </Layout>
+    <AboutLayout title={title} location={location}>
+      <AboutProfile />
+      <AboutWorkInfo/>
+    </AboutLayout>
   )
 }
 
