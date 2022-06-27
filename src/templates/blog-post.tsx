@@ -2,6 +2,7 @@
 import * as React from "react"
 import { PageProps, Link, graphql } from "gatsby"
 import kebabCase from "lodash.kebabcase"
+import Utterances from "../components/Utterance"
 
 import BlogLayout from "../components/blogLayout"
 import Seo from "../components/seo"
@@ -94,6 +95,7 @@ const BlogPostTemplate = ({ data, location }: PageProps<DataProps>) => {
             </ul>
           </nav>
         </footer>
+        <Utterances repo='10days96/10days96.github.io' theme='github-light' />
       </article>
     </BlogLayout>
   )
