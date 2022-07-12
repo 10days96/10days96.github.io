@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tags-tsx",
     "path": "/tags/python/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Dev.HS"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/알고리즘/"},"frontmatter":{"title":"[백준] 15649번 N과 M (1)"}}}]}},"pageContext":{"tag":"python"}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"Dev.HS"}},"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"fields":{"slug":"/알고리즘/"},"frontmatter":{"title":"[백준] 15649번 N과 M (1)"}}},{"node":{"fields":{"slug":"/programmers_64061/"},"frontmatter":{"title":"[프로그래머스] 크레인 인형뽑기 게임"}}}]}},"pageContext":{"tag":"python"}},
     "staticQueryHashes": ["2841359383"]}
