@@ -95,7 +95,7 @@ const BlogPostTemplate = ({ data, location }: PageProps<DataProps>) => {
             </ul>
           </nav>
         </footer>
-        <Utterances repo='10days96/10days96.github.io' theme='github-light' />
+        <Utterances repo='10days96/blog-comment' theme='github-light' />
       </article>
     </BlogLayout>
   )
