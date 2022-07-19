@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-tsx",
+    "path": "/tags/프로그래머스/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Dev.HS"}},"allMarkdownRemark":{"totalCount":2,"edges":[{"node":{"fields":{"slug":"/programmers_64061/"},"frontmatter":{"title":"[프로그래머스] 크레인 인형뽑기 게임"}}},{"node":{"fields":{"slug":"/programmers_car_fee/"},"frontmatter":{"title":"[프로그래머스] 주차요금계산"}}}]}},"pageContext":{"tag":"프로그래머스"}},
+    "staticQueryHashes": ["2841359383"]}
