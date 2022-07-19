@@ -2,7 +2,7 @@
 title: "[백준] 15649번 N과 M (1)"
 date: "2022-06-20"
 description: "파이썬 문제 풀이"
-tags: ["algorithm", "python"]
+tags: ["algorithm", "python", "백준"]
 ---
 
 ```python

@@ -2,10 +2,12 @@
 title: "[프로그래머스] 크레인 인형뽑기 게임"
 date: "2022-07-12"
 description: "2019 카카오 개발자 인턴십"
-tags: ["algorithm", "python"]
+tags: ["algorithm", "python", "프로그래머스"]
 ---
 
 # 접근 방법
+
+열을 기준으로 순회
 
 # 코드
 
