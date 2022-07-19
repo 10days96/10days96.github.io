@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-tags-tsx",
     "path": "/tags/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Dev.HS"}},"allMarkdownRemark":{"group":[{"fieldValue":"algorithm","totalCount":3},{"fieldValue":"python","totalCount":3},{"fieldValue":"백준","totalCount":1},{"fieldValue":"프로그래머스","totalCount":2}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"Dev.HS"}},"allMarkdownRemark":{"group":[{"fieldValue":"algorithm","totalCount":3},{"fieldValue":"python","totalCount":3},{"fieldValue":"프로그래머스","totalCount":1}]}},"pageContext":{}},
     "staticQueryHashes": ["2841359383"]}
