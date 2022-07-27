@@ -1,8 +1,8 @@
 ---
 title: "[프로그래머스] 주차요금계산"
 date: "2022-07-19"
-description: "2022 카카오 개발자"
-tags: ["algorithm", "python"]
+description: "2022 KAKAO BLIND RECRUITMENT"
+tags: ["algorithm", "python", "프로그래머스"]
 ---
 
 # 문제
