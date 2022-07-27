@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-templates-tags-tsx",
     "path": "/tags/algorithm/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Dev.HS"}},"allMarkdownRemark":{"totalCount":3,"edges":[{"node":{"fields":{"slug":"/알고리즘/"},"frontmatter":{"title":"[백준] 15649번 N과 M (1)"}}},{"node":{"fields":{"slug":"/programmers_64061/"},"frontmatter":{"title":"[프로그래머스] 크레인 인형뽑기 게임"}}},{"node":{"fields":{"slug":"/programmers_car_fee/"},"frontmatter":{"title":"[프로그래머스] 주차요금계산"}}}]}},"pageContext":{"tag":"algorithm"}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"Dev.HS"}},"allMarkdownRemark":{"totalCount":4,"edges":[{"node":{"fields":{"slug":"/알고리즘/"},"frontmatter":{"title":"[백준] 15649번 N과 M (1)"}}},{"node":{"fields":{"slug":"/pro_1/"},"frontmatter":{"title":"[프로그래머스] 크레인 인형뽑기 게임"}}},{"node":{"fields":{"slug":"/pro_2/"},"frontmatter":{"title":"[프로그래머스] 주차요금계산"}}},{"node":{"fields":{"slug":"/pro_3/"},"frontmatter":{"title":"[프로그래머스] k진수에서 소수 개수 구하기"}}}]}},"pageContext":{"tag":"algorithm"}},
     "staticQueryHashes": ["2841359383"]}

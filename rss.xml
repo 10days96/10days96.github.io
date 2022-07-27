@@ -1,4 +1,95 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[AI에 직관을 담고 싶은 개발자 입니다.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 19 Jul 2022 11:36:26 GMT</lastBuildDate><item><title><![CDATA[[프로그래머스] 주차요금계산]]></title><description><![CDATA[문제 주차요금계산 접근 방법 차량 번호와 출차 기록을 딕셔너리에 같이 넣음 출차기록을 파싱하여 주차 시간 계산 출차기록의 길이가 홀수인 경우 -> 11:59를 출차시간으로 계산 짝수인 경우 -> 그냥 파싱 총 주차시간을 더해서 요금 측정 코드]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/programmers_car_fee/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/programmers_car_fee/</guid><pubDate>Tue, 19 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;문제&lt;/h1&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[AI에 직관을 담고 싶은 개발자 입니다.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 27 Jul 2022 07:15:26 GMT</lastBuildDate><item><title><![CDATA[[프로그래머스] k진수에서 소수 개수 구하기]]></title><description><![CDATA[문제 k진수에서 소수 개수 구하기  접근방식 양의 정수 n을 k진수로 변경(change()) 0을 기준으로 숫자 자르기(0P0, P0, 0P 이기 때문에 그냥 잘라도 됌) 얻은 수들이 소수인지 판별(prime_number…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/pro_3/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/pro_3/</guid><pubDate>Wed, 27 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;문제&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/92335&quot;&gt;k진수에서 소수 개수 구하기&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7c42ad66bf803b7d08d72f9323bbacf6/cc6fe/pro_3_fig.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 62.65822784810127%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABYlAAAWJQFJUiTwAAABmElEQVQ4y51S7W6CQBC8h9G2tlYLCIKKIIh8KYgfSPujff+nmGa2YmzTtIk/Jnu3uZ2b3R01y1/hpDXc9Ru0RYmuFeHejnE3Xt0EFVTvMMIKZrRH382F8FYyIZxmDTrmUlQRvUmKBye5GWq03KM/y8E49AsY4Q7P7hp6uIO5Ogh4Ns7gu5dFKTktqATGcodRtJecepxkoupxmuFplkvkvWNF0n6L39pru/rWsuaVmGRcTAOvfJdIGGcF/HXol5fCn/GamFADdwMrPmKcnDDJX2FGB9hpAzs9YRQdJE/ya6K/oIbzQgpJ4FBp1gjJYL5B311flvQf0YWQBVRgxbWo49BJyjNbparuj3leo2N+vyvOiDNjuySjWn2xhR5UGHqFKG1neb1pPfzaLl1gLPdy5ns1Xb9Jq5ybuTqKMs0rME5q2MkJ47gW9fyQ0VodhbQlstqaoBKXKCrhjyykl0QFvXWO7dZJPvAKPM83UkivciScM8E8LafsuIaTNPCrD/jbD7EOjd5zkksRQTJGLdhKazy31uJdol/gE2tTv55FMsURAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;문제이미지&quot;
+        title=&quot;문제이미지&quot;
+        src=&quot;/static/7c42ad66bf803b7d08d72f9323bbacf6/f058b/pro_3_fig.png&quot;
+        srcset=&quot;/static/7c42ad66bf803b7d08d72f9323bbacf6/c26ae/pro_3_fig.png 158w,
+/static/7c42ad66bf803b7d08d72f9323bbacf6/6bdcf/pro_3_fig.png 315w,
+/static/7c42ad66bf803b7d08d72f9323bbacf6/f058b/pro_3_fig.png 630w,
+/static/7c42ad66bf803b7d08d72f9323bbacf6/40601/pro_3_fig.png 945w,
+/static/7c42ad66bf803b7d08d72f9323bbacf6/78612/pro_3_fig.png 1260w,
+/static/7c42ad66bf803b7d08d72f9323bbacf6/cc6fe/pro_3_fig.png 1860w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h1&gt;접근방식&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;양의 정수 n을 k진수로 변경(&lt;code&gt;change()&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;0&lt;/code&gt;을 기준으로 숫자 자르기(&lt;code&gt;0P0&lt;/code&gt;, &lt;code&gt;P0&lt;/code&gt;, &lt;code&gt;0P&lt;/code&gt; 이기 때문에 그냥 잘라도 됌)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;얻은 수들이 소수인지 판별(&lt;code&gt;prime_number()&lt;/code&gt;)
+이때 중복을 허용했으므로 중복된 원소가 있어도 삭제하지 않는다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1&gt;코드&lt;/h1&gt;
+&lt;deckgo-highlight-code language=&quot;python&quot; terminal=&quot;carbon&quot; theme=&quot;base16-light&quot;  &gt;
+          &lt;code slot=&quot;code&quot;&gt;import math
+
+solution(n, k):
+    answer = -1
+    prime_list = []
+
+    n = change(n, k)
+    p_list = n.split(&amp;quot;0&amp;quot;)
+
+    while &amp;quot;1&amp;quot; in p_list:
+        p_list.remove(&amp;quot;1&amp;quot;)
+
+    while &amp;quot;&amp;quot; in p_list:
+        p_list.remove(&amp;quot;&amp;quot;)
+
+    for p in p_list:
+        if prime_number(int(p)):
+            prime_list.append(p)
+
+    answer = len(prime_list)
+
+    return answer
+
+
+# 진수 변환 함수
+def change(n, k):
+    rev_base = &amp;quot;&amp;quot;
+
+    while n &amp;gt; 0:
+        n, mod = divmod(n, k)
+        rev_base += str(mod)
+
+    return rev_base[::-1]
+
+
+# 소수 확인 함수:
+def prime_number(n):
+    for i in range(2, int(math.sqrt(n)) + 1):
+        if n % i == 0:
+            return False
+    return True&lt;/code&gt;
+        &lt;/deckgo-highlight-code&gt;</content:encoded></item><item><title><![CDATA[[프로그래머스] 주차요금계산]]></title><description><![CDATA[문제 주차요금계산 접근 방법 차량 번호와 출차 기록을 딕셔너리에 같이 넣음 출차기록을 파싱하여 주차 시간 계산 출차기록의 길이가 홀수인 경우 -> 11:59를 출차시간으로 계산 짝수인 경우 -> 그냥 파싱 총 주차시간을 더해서 요금 측정 코드]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/pro_2/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/pro_2/</guid><pubDate>Tue, 19 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;문제&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/92341&quot;&gt;주차요금계산&lt;/a&gt;&lt;/p&gt;
 &lt;h1&gt;접근 방법&lt;/h1&gt;
 &lt;ol&gt;
@@ -74,7 +165,7 @@ car_num_time_dict = {}
 
         answer.append(total_fee)
     return answer&lt;/code&gt;
-        &lt;/deckgo-highlight-code&gt;</content:encoded></item><item><title><![CDATA[[프로그래머스] 크레인 인형뽑기 게임]]></title><description><![CDATA[접근 방법 열을 기준으로 순회 코드]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/programmers_64061/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/programmers_64061/</guid><pubDate>Tue, 12 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;접근 방법&lt;/h1&gt;
+        &lt;/deckgo-highlight-code&gt;</content:encoded></item><item><title><![CDATA[[프로그래머스] 크레인 인형뽑기 게임]]></title><description><![CDATA[접근 방법 열을 기준으로 순회 코드]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/pro_1/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/pro_1/</guid><pubDate>Tue, 12 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;접근 방법&lt;/h1&gt;
 &lt;p&gt;열을 기준으로 순회&lt;/p&gt;
 &lt;h1&gt;코드&lt;/h1&gt;
 &lt;deckgo-highlight-code language=&quot;python&quot; terminal=&quot;carbon&quot; theme=&quot;base16-light&quot;  &gt;
