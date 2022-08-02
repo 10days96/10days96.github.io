@@ -50,6 +50,9 @@ const BlogIndex = ({ data, location }: PageProps<DataProps>) => {
             {posts.map(post => {
                const title = post.frontmatter.title || post.fields.slug
                const postTags = post.frontmatter.tags
+               // 태그가 5개 이상이 된다면...?
+               const color = ['#F4E0D9', '#F0ECE1', '#DAE4CC', '#ACCACC', '#A3B5C1', '#D3D3D3'];
+               let color_index = 0;
 
                return (
                   <li key={post.fields.slug}>
@@ -66,7 +69,7 @@ const BlogIndex = ({ data, location }: PageProps<DataProps>) => {
                            </h2>
                            <div className="tag-group">
                               {postTags ? postTags.map(tag => (
-                                 <Link to={`/tags/${kebabCase(tag)}`} className="tag">{kebabCase(tag)}</Link>
+                                 <Link to={`/tags/${kebabCase(tag)}`} className="tag" style={{backgroundColor:`${color[color_index++]}`}}>{kebabCase(tag)}</Link>
                               )) : null}
                            </div>
                            <small>{post.frontmatter.data}</small>

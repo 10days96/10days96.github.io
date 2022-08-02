@@ -45,7 +45,7 @@ const Tags = ({ data, pageContext, location }: PageProps<DataProps>) => {
           return (
             <li key={slug}>
               <article
-                className="post-list-item"
+                // className="post-list-item"
                 itemScope
                 itemType="http://schema.org/Article"
               >
