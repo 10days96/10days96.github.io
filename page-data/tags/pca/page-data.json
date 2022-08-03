@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-tsx",
+    "path": "/tags/pca/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Dev.HS"}},"allMarkdownRemark":{"totalCount":1,"edges":[{"node":{"fields":{"slug":"/ganspace/"},"frontmatter":{"title":"[논문] GANSpace: Discovering Interpretable GAN Controls"}}}]}},"pageContext":{"tag":"PCA"}},
+    "staticQueryHashes": ["2841359383"]}

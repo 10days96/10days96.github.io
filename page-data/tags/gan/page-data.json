@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-tags-tsx",
+    "path": "/tags/gan/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Dev.HS"}},"allMarkdownRemark":{"totalCount":3,"edges":[{"node":{"fields":{"slug":"/StyleGAN/"},"frontmatter":{"title":"[논문] StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks"}}},{"node":{"fields":{"slug":"/StyleGAN2/"},"frontmatter":{"title":"[논문] StyleGAN2: Analyzing and Improving the Image Quality of StyleGAN"}}},{"node":{"fields":{"slug":"/ganspace/"},"frontmatter":{"title":"[논문] GANSpace: Discovering Interpretable GAN Controls"}}}]}},"pageContext":{"tag":"GAN"}},
+    "staticQueryHashes": ["2841359383"]}

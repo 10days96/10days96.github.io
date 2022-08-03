@@ -1,4 +1,226 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[AI에 직관을 담고 싶은 개발자 입니다.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 02 Aug 2022 08:20:54 GMT</lastBuildDate><item><title><![CDATA[[프로그래머스] k진수에서 소수 개수 구하기]]></title><description><![CDATA[문제 k진수에서 소수 개수 구하기  접근방식 양의 정수 n을 k진수로 변경() 을 기준으로 숫자 자르기(, ,  이기 때문에 그냥 잘라도 됌) 얻은 수들이 소수인지 판별()
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[AI에 직관을 담고 싶은 개발자 입니다.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 03 Aug 2022 09:47:45 GMT</lastBuildDate><item><title><![CDATA[[논문] GANSpace: Discovering Interpretable GAN Controls]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/ganspace/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/ganspace/</guid><pubDate>Wed, 10 Aug 2022 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[[논문] StyleGAN2: Analyzing and Improving the Image Quality of StyleGAN]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/StyleGAN2/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/StyleGAN2/</guid><pubDate>Mon, 08 Aug 2022 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[[논문] StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks]]></title><description><![CDATA[논문 소개 저자: Tero Karras, Samuli Laine, Timo Aila paper: https://arxiv.org/abs/1812.04948 CVPR 201…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/StyleGAN/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/StyleGAN/</guid><pubDate>Tue, 02 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;논문 소개&lt;/h2&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;저자&lt;/strong&gt;: Tero Karras, Samuli Laine, Timo Aila&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;paper&lt;/strong&gt;: &lt;a href=&quot;https://arxiv.org/abs/1812.04948&quot;&gt;https://arxiv.org/abs/1812.04948&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CVPR 2019&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;목표&lt;/strong&gt;:
+&lt;ol&gt;
+&lt;li&gt;고화질 이미지를 생성하며&lt;/li&gt;
+&lt;li&gt;특징이 분리된 잠재공간(Disentanglement latent space) 구성을&lt;/li&gt;
+&lt;li&gt;복잡한 손실 함수 없이 모델의 구조를 제안 했다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;사전지식&lt;/h2&gt;
+&lt;h3&gt;GAN&lt;/h3&gt;
+&lt;p&gt;GAN 모델은 &lt;a href=&quot;!https://arxiv.org/abs/1406.2661&quot;&gt;2014년 Ian Goodfellow가 제안한 생성 모델&lt;/a&gt;로 후에 나온 생성 모델들은 모두 GAN 구조를 기반으로 했다고 해도 과언이 아니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8da5b661b75b26167d17667e6d295b94/9f82e/fig1_GAN-family.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.32911392405063%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAA6cAAAOnAEHlFPdAAABqklEQVQoz3WSa2sTQRSG84P9BcVP+g/EjwbBKoo3vEEpgi0ULWqLRgWJ2KQtkY1pdrPJXuayM/PIzu5mN6UeeHd25px5z5n3nJ5zTl8FQDtr/Dq+f92je/a/ez0A5xzN2kVpRuaM7m0x2t7CiOTKuBbQq/yVlf8Nmr28OHfTw5ce8u+48l+KbeHcRoXWOpTSCCHRWqOVwjgQBvLCoYwly1Kkqv1ao6RAK4FzxvP0GrLSdvePuX33Ff2Hu0xnYf08W37QWvL63WPuPLnFx8FBJYe1BD8fcPLhBrNfT/2Zr/D9lzMe7Qz4fT6n/+wzOwdDBsOA/vMjhqfz6rIxKKWI45gyR2PGFCyXMdbaljBepUxnEYVxTII5i1WGkAWjs4CigMnFmG8nn5hGf3h79IIf42Nubl9j7+ubWqo2gyeUUpCmCV2z1pAkS691LnKSdIXSisUiYpGEHH7fYzI7bWWpe+EJhRD+KeuRAPI8JwxD0ixbJ5FSEkUR1liUKHAGuk1dV1hqU5J2neVZEAS+k40VRUGapnVStzG/a8LuZmOgjfEVNfp04y7Hdgn/AZIKTdOveWAuAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;GAN-Family&quot;
+        title=&quot;GAN-Family&quot;
+        src=&quot;/static/8da5b661b75b26167d17667e6d295b94/f058b/fig1_GAN-family.png&quot;
+        srcset=&quot;/static/8da5b661b75b26167d17667e6d295b94/c26ae/fig1_GAN-family.png 158w,
+/static/8da5b661b75b26167d17667e6d295b94/6bdcf/fig1_GAN-family.png 315w,
+/static/8da5b661b75b26167d17667e6d295b94/f058b/fig1_GAN-family.png 630w,
+/static/8da5b661b75b26167d17667e6d295b94/9f82e/fig1_GAN-family.png 820w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;GAN의 구조에 대해 간략하게 설명해보자면 GAN은 이미지 생성을 담당하는 생성자(Generator) 생성된 가짜 이미지와 진짜 이미지를 판별하는 판별자(Discriminator)로 구성 되어있다. GAN을 공부한 사람들이 많이 본 비유는 아마 위조지폐범과 그를 잡는 경찰일 것이다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/87d15b0daebeaa957b8268513ff64e39/9f82e/fig2_GAN_structure.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABcSAAAXEgFnn9JSAAABv0lEQVQoz3WSPY8SURSG5w+siVuupdtRUGtsdBsTsSEhoeFP0EFPKKAjVJQkFK6EhAQl41qpIIJuYiTEZilGhWGVD4Fh5+s+5s44Ii6e5Mydc3LPe9/znqMA1Ot1UqkUs9lMhriuC0IghMt1k3mxjYTAcRy/BlB0XScSiRAKhSiVSl7SERBANRoNKpUK5XKZl2dnBFDCdXaAA3BFIsuCZDKJ9nWEOx+zOn/G8u0p7vgzDx895vDwJjcODrj/4ARn+QOxnu8wHgwGSGIeQxnEYjHi8TjZbNZnaJk45gbXtqjVauTzeYrFIk9On8JmzvJDg9X5cw/s1es33Do6IhqNYlkWSqfTIZ1Ok8lkvMLtu1tbLBYYhvEnlnJsvgzANhjrl1SrVZrNps9QfmzbZr1e72gR+L6heF38jl6oKolEglwux2g0QtknbJCT53Q6RdM0z6VOlu1wcWmgftSZrmzu3b3D7eNjwuEwhULBB/yXUXDKdeh2u/T7fdrtNu977xh++84n7SdXloNlXiEla7VaqKrKcDj0W95nAagcmizq9Xrev2WZ1+78bcr/wILLpml62kwmk+1Q3N1u5OpJl3v4CxLH0Eb+a3t7AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;GAN의 구조&quot;
+        title=&quot;GAN의 구조&quot;
+        src=&quot;/static/87d15b0daebeaa957b8268513ff64e39/f058b/fig2_GAN_structure.png&quot;
+        srcset=&quot;/static/87d15b0daebeaa957b8268513ff64e39/c26ae/fig2_GAN_structure.png 158w,
+/static/87d15b0daebeaa957b8268513ff64e39/6bdcf/fig2_GAN_structure.png 315w,
+/static/87d15b0daebeaa957b8268513ff64e39/f058b/fig2_GAN_structure.png 630w,
+/static/87d15b0daebeaa957b8268513ff64e39/9f82e/fig2_GAN_structure.png 820w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;즉 &lt;strong&gt;생성자는 진짜와 비슷한 위조 지폐(가짜 이미지/생성된 이미지)를 만드는 것이고&lt;/strong&gt; &lt;strong&gt;판별자는 생성자가 만든 위조 지폐와 진짜 지폐를 두고 위조지폐를 찾는 경찰&lt;/strong&gt; 인 것이다!&lt;/p&gt;
+&lt;p&gt;학습을 진행하면서 생성자와 판별자는 경쟁적으로 학습을 하게 되고 결국 생성자는 &lt;strong&gt;판별자가 구분할 수 없을 정도로 그럴듯한(진짜같은) 이미지를 만들게 된다&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;그러나 초기의 GAN(VanillaGAN)은 단순히 선형 레이어 여러개로만 이뤄져서 안정적으로 학습할 할 수 없다는 단점이 있었다. 이를 개선한 것이 2015에 나온&lt;a href=&quot;https://arxiv.org/abs/1511.06434&quot;&gt;DCGAN&lt;/a&gt; 논문이다. 이 모델은 기존의 GAN 모델에 CNN 구조를 더해 학습이 안정적으로 될 수 있는 구조를 제안하였다(후속 모델들은 사실 DCGAN의 구조를 기반으로 나왔다.)&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/aff4c724d9a870dc7b51cb3830158edc/f680b/fig3_DCGAN.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 41.139240506329116%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABYlAAAWJQFJUiTwAAABeklEQVQoz4WS7UsbQRDG83dLQfBDv/hdfKmKYsRUWrEKoiK+JVEJaUytUGkuMTESvHjeXe5uz73k9id7l1oNlD4wzMPOzjMzu5NRSqGh/X9N3xveTZF62/OQUZTwzPsk3om/YsgHkSQeJnpCYNp2wm/MLsVGKxVkBAMp/3Kl6AVB0sezlFzctjipN7H8AKP7yOaNwYMfcHXbYu7wFFeEZJ7DENNxeXJ7lJp3FOpNSu0O9082n4/zTO8dMH9wTKVm8OnbNuOzC2R396k0mnzc2GKlcE65Vmcyu4bt+6lgx3awHIcvF2VWSxWWzkqUjQarW9tMLmeZmJ3n8neN3GmRsdxXFo7yfK8ZfJiaYW5jk+pdm8X8Oa4QZELdoWliWRZW14RBPxk3FAIRhvSVwvU8fM/DdHv8tGzqrocfBOxXr9j5cU3bcVmvXuPokd++n3pjcRy/foaGlBKlz0iCSQGNaMh/3XdSwX+tyOgq/SkYj8TjeEAURQjfR0/7Ah1yWCTH5NNDAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;DCGAN구조&quot;
+        title=&quot;DCGAN구조&quot;
+        src=&quot;/static/aff4c724d9a870dc7b51cb3830158edc/f058b/fig3_DCGAN.png&quot;
+        srcset=&quot;/static/aff4c724d9a870dc7b51cb3830158edc/c26ae/fig3_DCGAN.png 158w,
+/static/aff4c724d9a870dc7b51cb3830158edc/6bdcf/fig3_DCGAN.png 315w,
+/static/aff4c724d9a870dc7b51cb3830158edc/f058b/fig3_DCGAN.png 630w,
+/static/aff4c724d9a870dc7b51cb3830158edc/40601/fig3_DCGAN.png 945w,
+/static/aff4c724d9a870dc7b51cb3830158edc/f680b/fig3_DCGAN.png 1108w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;더 자세한 설명은 &lt;a href=&quot;https://dreamgonfly.github.io/blog/gan-explained/&quot;&gt;쉽게 쓰여진 GAN&lt;/a&gt; 글을 보면 좋다. 이해하기 쉬운 설명과 코드까지 있는 좋은 글이다.&lt;/p&gt;
+&lt;p&gt;오늘 GAN의 전반적인 내용을 다루는 것이 아니기 때문에 StyleGAN 이전에 나온 ProGAN에 대해서 먼저 설명해고자 한다.&lt;/p&gt;
+&lt;h3&gt;ProGAN&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1710.10196&quot;&gt;2017년에 나온 ProGAN&lt;/a&gt;은 &lt;strong&gt;생성자와 판별자를 점진적으로 키우면서 고화질의 이미지를 생성하는 모델 구조&lt;/strong&gt;를 제안하였다.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/0f85592ca63f9b32b65dc33e6a9de84e/fig4_ProGAN.png&quot; alt=&quot;ProGAN&quot;&gt;&lt;/p&gt;
+&lt;p&gt;즉 생성자가 4x4 ... 8x8 ... 16x16 ... 512x512 크기의 이미지를 생성하는 레이어가 학습과정에 추가가 되면 판별자도 이와 대응 되게 레이어가 추가 된다.&lt;/p&gt;
+&lt;p&gt;이걸 코드로 보면 &lt;a href=&quot;https://github.com/rosinality/progressive-gan-pytorch/blob/master/model.py&quot;&gt;코드출처&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Generator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Module&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;self&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; code_dim&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; n_label&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token builtin&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;__init__&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+        self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;label_embed &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Embedding&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n_label&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; n_label&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;code_norm &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; PixelNorm&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+        self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;label_embed&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;weight&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;data&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;normal_&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+        self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;progression &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ModuleList&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ConvBlock&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#4x4&lt;/span&gt;
+                                          ConvBlock&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#8x8&lt;/span&gt;
+                                          ConvBlock&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#16x16&lt;/span&gt;
+                                          ConvBlock&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#32x32&lt;/span&gt;
+                                          ConvBlock&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#64x64&lt;/span&gt;
+                                          ConvBlock&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;128&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;#128x128&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;생성자와 대응되게 판별자도&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Discriminator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Module&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;self&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; n_label&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+        &lt;span class=&quot;token builtin&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;__init__&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+        self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;progression &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;ModuleList&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;ConvBlock&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;128&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                                    pixel_norm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                                    spectral_norm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 4x4&lt;/span&gt;
+                                          ConvBlock&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;256&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                                    pixel_norm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                                    spectral_norm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 8x8&lt;/span&gt;
+                                          ConvBlock&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                                    pixel_norm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                                    spectral_norm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 16x16&lt;/span&gt;
+                                          ConvBlock&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                                    pixel_norm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                                    spectral_norm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 32x32&lt;/span&gt;
+                                          ConvBlock&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                                    pixel_norm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                                    spectral_norm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 64x64&lt;/span&gt;
+                                          ConvBlock&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;513&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                                    pixel_norm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                                                    spectral_norm&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 128x128&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;점진적으로 레이어가 추가되는 것을 볼 수 있다.(레이어가 추가되는 기준은 α 값을 기준으로 두는 걸로 알고 있다)&lt;/p&gt;
+&lt;p&gt;우리의 목표는 StyleGAN이기 때문에 자세한 설명은 &lt;a href=&quot;https://towardsdatascience.com/progan-how-nvidia-generated-images-of-unprecedented-quality-51c98ec2cbd2&quot;&gt;ProGAN설명 블로그&lt;/a&gt;를 보면 좋을거 같다. (ProGAN도 설명 할 것이 너무 많다 minibatch나... 모델 구조에 대한 자세한 설명이나.. 글을 따로 써야할 둡)&lt;/p&gt;
+&lt;p&gt;이렇게 고화질의 사람 이미지를 생성하는데에는 좋은 성능을 보여주었으나 이미지 특징 제어가 어렵다는 단점이 있다.&lt;/p&gt;
+&lt;p&gt;그렇다면 ProGAN의 후속 모델은 StyleGAN은 어떻게 이 문제를 해결했는지 정말 본격적으로 알아보자.&lt;/p&gt;
+&lt;h2&gt;본론&lt;/h2&gt;
+&lt;p&gt;이 부분에서는 StyleGAN이 이전 ProGAN의 문제를 어떻게 해결 했는지 이를 통해서 어떤 결과를 얻었는지에 대해 설명한다.&lt;/p&gt;
+&lt;h3&gt;모델의 구조&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Mapping Network&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;ProGAN의 후속 모델인 StyleGAN은 ProGAN 모델 구조에 Mapping Network를 추가하였다.
+&lt;img src=&quot;/1cc19a91d6eacdcf7ee3614337feba20/fig5_StyleGAN_structure.png&quot; alt=&quot;StyleGAN 구조&quot;&gt;&lt;/p&gt;
+&lt;p&gt;기존의 모델들은 가우시안분포(정규분포, 평균이 0이고 분산이 1인 분포)에서 무작위 벡터를 뽑아 바로 모델에 넣었지만 StyleGAN에서는 가우시안 분포에서 추출한 $z$ 벡터를 8개의 Fully Connected layer(MLP)로 이루어진 Mapping Network에 통과 시켜 $w$ 벡터로 만든다.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;StyledGenerator&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Module&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;self&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; code_dim&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; n_mlp&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token builtin&quot;&gt;super&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;__init__&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+      self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;generator &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; Generator&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;code_dim&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+      layers &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;PixelNorm&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n_mlp&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# Mapping Network 정의&lt;/span&gt;
+          layers&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;EqualLinear&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;code_dim&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; code_dim&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+          layers&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;LeakyReLU&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0.2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+
+      self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;style &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; nn&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Sequential&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt;layers&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;forward&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+      self&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      &lt;span class=&quot;token builtin&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      noise&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      step&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      alpha&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      mean_style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      style_weight&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+      mixing_range&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+  &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      styles &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+      &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;type&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;not&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;list&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;tuple&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+          &lt;span class=&quot;token builtin&quot;&gt;input&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+
+      &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# z벡터를 w벡터로 변환&lt;/span&gt;
+          styles&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;self&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;style&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;i&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;왜 Mapping Network를 추가하였을까? 이는 모델의 &lt;strong&gt;특징 분리된 잠재 공간&lt;/strong&gt;을 구성하기 위함이다 예를 들어서 특징이 분리되어있지 않은 잠재 공간인 경우 머리색을 바꿨더니 얼굴의 다른 부분이 바꾸게되는 것이다.&lt;/p&gt;
+&lt;p&gt;특징이 분리된 잠재 공간에 대한 자세한 얘기는 다음 문단에서 하기로 하고 Mapping Network만큼 중요한 AdalN이라는 연산에 대해 설명해보자 한다.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;AdalN&lt;/strong&gt;
+AdalN 기법은 &lt;a href=&quot;https://arxiv.org/abs/1703.06868v2&quot;&gt;Adaptive Instance Normalization(AdalN)&lt;/a&gt;에서 제안된 방법으로 &lt;strong&gt;임의의 스타일 이미지에서 빠르게 스타일 정보를 가져올 수 있는 모델이다.&lt;/strong&gt; 이는 기존의&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;특징이 분리된 잠재공간 (Disentanglement latent space)&lt;/h3&gt;
+&lt;h3&gt;Style Mixing&lt;/h3&gt;
+&lt;h3&gt;실습&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;데이터 준비&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;모델 돌리기&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Style Mixing 실험하기&lt;/strong&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;참고자료&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;쉽게 쓰여진 GAN: &lt;a href=&quot;https://dreamgonfly.github.io/blog/gan-explained/&quot;&gt;https://dreamgonfly.github.io/blog/gan-explained/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;StyleGAN 포스팅: &lt;a href=&quot;https://happy-jihye.github.io/gan/gan-6/&quot;&gt;https://happy-jihye.github.io/gan/gan-6/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;꼼꼼한 딥러닝 논문 리뷰와 코드 실습(StyleGAN): &lt;a href=&quot;https://www.youtube.com/watch?v=HXgfw3Z5zRo&amp;#x26;t=1979s&quot;&gt;https://www.youtube.com/watch?v=HXgfw3Z5zRo&amp;#x26;t=1979s&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;꼼꼼한 딥러닝 논문 리뷰와 코드 실습(AdalN): &lt;a href=&quot;https://www.youtube.com/watch?v=OM-6zYYRYfg&quot;&gt;https://www.youtube.com/watch?v=OM-6zYYRYfg&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[프로그래머스] k진수에서 소수 개수 구하기]]></title><description><![CDATA[문제 k진수에서 소수 개수 구하기  접근방식 양의 정수 n을 k진수로 변경() 을 기준으로 숫자 자르기(, ,  이기 때문에 그냥 잘라도 됌) 얻은 수들이 소수인지 판별()
 이때 중복을 허용했으므로 중복된 원소가 있어도 삭제하지 않는다. 코드]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/pro_3/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/pro_3/</guid><pubDate>Wed, 27 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;문제&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/92335&quot;&gt;k진수에서 소수 개수 구하기&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span

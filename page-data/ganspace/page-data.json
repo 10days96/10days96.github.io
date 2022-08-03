@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-tsx",
+    "path": "/ganspace/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Dev.HS"}},"markdownRemark":{"id":"26f909ef-58c4-5e54-9123-ee437fe1655b","excerpt":"","html":"","frontmatter":{"title":"[논문] GANSpace: Discovering Interpretable GAN Controls","date":"August 10, 2022","description":"StyleGAN 논문 설명","tags":["논문","GAN","pytorch","PCA"]}},"previous":{"fields":{"slug":"/StyleGAN2/"},"frontmatter":{"title":"[논문] StyleGAN2: Analyzing and Improving the Image Quality of StyleGAN"}},"next":null},"pageContext":{"id":"26f909ef-58c4-5e54-9123-ee437fe1655b","previousPostId":"f12f4b81-84b3-5708-a77a-6506b21647a3","nextPostId":null}},
+    "staticQueryHashes": ["2841359383"]}
