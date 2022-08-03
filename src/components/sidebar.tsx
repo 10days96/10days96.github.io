@@ -8,6 +8,9 @@ type DataProps = {
       group: {
          fieldValue: string
          totalCount: number
+      },
+      nodes: {
+         id:string
       }
    }
 }
@@ -15,7 +18,7 @@ type DataProps = {
 
 const Sidebar = ({ data, location }: PageProps<DataProps>) => {
 
-   const { allMarkdownRemark: { group } } = useStaticQuery(
+   const { allMarkdownRemark: { group, nodes } } = useStaticQuery(
       graphql`
          query{
             allMarkdownRemark(limit: 2000){
@@ -23,23 +26,24 @@ const Sidebar = ({ data, location }: PageProps<DataProps>) => {
                  fieldValue
                  totalCount
                }
+               nodes{
+                  id
+               }
              }
          }
       `
    )
 
-   console.log(group)
-
    return (
       <div className="sidebar">
          <Bio />
          <div>
-            <h6>Tags</h6>
+            <h6>📚 TOTAL {nodes.length} POSTS</h6>
             <ul>
                {group.map(tag => (
                   <li key={tag.fieldValue}>
                      <Link to={`/tags/${kebabCase(tag.fieldValue)}/`}>
-                        - {tag.fieldValue} ({tag.totalCount})
+                        {tag.fieldValue} ({tag.totalCount})
                      </Link>
                   </li>
                ))}
@@ -50,14 +54,3 @@ const Sidebar = ({ data, location }: PageProps<DataProps>) => {
 }
 
 export default Sidebar
-
-// export const pageQuery = graphql`
-//    query{
-//       allMarkdownRemark(limit: 2000){
-//          group(field: frontmatter___tags){
-//            fieldValue
-//            totalCount
-//          }
-//        }
-//    }
-// ` 

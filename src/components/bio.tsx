@@ -49,6 +49,8 @@ const Bio = () => {
                     {` `}
                 </p>
             )}
+            <div className="socialMedia">
+            </div>
         </div>
     )
 }
