@@ -7,10 +7,13 @@ import Utterances from "../components/Utterance"
 import BlogLayout from "../components/blogLayout"
 import Seo from "../components/seo"
 import { defineCustomElements as deckDeckGoHighlightElement } from "@deckdeckgo/highlight-code/dist/loader";
+import TableOfContents from "../components/postTableContents"
+
 deckDeckGoHighlightElement();
 
 type DataProps = {
   markdownRemark: {
+    tableOfContents:string
     frontmatter: {
       title: string
       date: string
@@ -37,6 +40,7 @@ const BlogPostTemplate = ({ data, location }: PageProps<DataProps>) => {
   const postExcerpt: string = data.excerpt
   const postHtml: string = data.markdownRemark.html
   const siteTitle: string = data.site.siteMetadata.title || `Title`
+  const tableOfContents:string = data.markdownRemark.tableOfContents
   const { previous, next }: any = data
 
   const color = ['#F4E0D9', '#F0ECE1', '#DAE4CC', '#ACCACC', '#A3B5C1', '#D3D3D3'];
@@ -100,6 +104,7 @@ const BlogPostTemplate = ({ data, location }: PageProps<DataProps>) => {
         </footer>
         <Utterances repo='10days96/blog-comment' theme='github-light' />
       </article>
+      <TableOfContents content={tableOfContents} />
     </BlogLayout>
   )
 }
@@ -127,6 +132,7 @@ export const pageQuery = graphql`
         description
         tags
       }
+      tableOfContents
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
       fields {

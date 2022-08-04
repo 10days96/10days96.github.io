@@ -27,7 +27,7 @@ const BlogLayout = ({ location, title, children }: PageProps<DataProps>) => {
     }
 
     return (
-        <div className="global-wrapper" data-is-root-path={isRootPath}>
+        <div className="blog-wrapper" data-is-root-path={isRootPath}>
             <header className="global-header">{header}</header>
             <main className="post">{children}</main>
             <footer>

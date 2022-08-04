@@ -25,6 +25,7 @@ GAN 모델은 [2014년 Ian Goodfellow가 제안한 생성 모델](!https://arxiv
 
 ![GAN-Family](../../../src/images/StyleGAN/fig1_GAN-family.png)
 
+<figcaption>GAN의 가계(?)도</figcaption>
 GAN의 구조에 대해 간략하게 설명해보자면 GAN은 이미지 생성을 담당하는 생성자(Generator) 생성된 가짜 이미지와 진짜 이미지를 판별하는 판별자(Discriminator)로 구성 되어있다. GAN을 공부한 사람들이 많이 본 비유는 아마 위조지폐범과 그를 잡는 경찰일 것이다.
 
 ![GAN의 구조](../../../src/images/StyleGAN/fig2_GAN_structure.png)
@@ -112,8 +113,9 @@ class Discriminator(nn.Module):
 - **Mapping Network**
 
   ProGAN의 후속 모델인 StyleGAN은 ProGAN 모델 구조에 Mapping Network를 추가하였다.
-  ![StyleGAN 구조](../../../src/images/StyleGAN/fig5_StyleGAN_structure.PNG)
 
+  ![StyleGAN 구조](../../../src/images/StyleGAN/fig5_StyleGAN_structure.PNG)
+  <figcaption align="center">StyleGAN의 구조</figcaption>
   기존의 모델들은 가우시안분포(정규분포, 평균이 0이고 분산이 1인 분포)에서 무작위 벡터를 뽑아 바로 모델에 넣었지만 StyleGAN에서는 가우시안 분포에서 추출한 $z$ 벡터를 8개의 Fully Connected layer(MLP)로 이루어진 Mapping Network에 통과 시켜 $w$ 벡터로 만든다.
 
   ```python
