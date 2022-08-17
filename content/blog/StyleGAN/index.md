@@ -157,7 +157,7 @@ class Discriminator(nn.Module):
   특징이 분리된 잠재 공간에 대한 자세한 얘기는 다음 문단에서 하기로 하고 Mapping Network만큼 중요한 AdalN이라는 연산에 대해 설명해보자 한다.
 
 - **AdalN**
-  AdalN 기법은 [Adaptive Instance Normalization(AdalN)](https://arxiv.org/abs/1703.06868v2)에서 제안된 방법으로 **임의의 스타일 이미지에서 빠르게 스타일 정보를 가져올 수 있는 모델이다.** 이는 기존의
+  AdalN 기법은 [Adaptive Instance Normalization(AdalN)](https://arxiv.org/abs/1703.06868v2)에서 제안된 방법으로 **임의의 스타일 이미지에서 빠르게 스타일 정보를 가져올 수 있는 방법이다.** 이를 Style Transfer라고 한다. 뉴럴 네트워크를 이용한 Style Transfer는 [이 논문](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf)부터 시작인데 이 방식은 굉장히 느리다는 것이 단점이다. 이를 극복하기 위해 [CIN(Conditional Instance Normalization)](https://arxiv.org/abs/1610.07629v5) 방식이 제안 되었는데 이 논문에서 중요한 부분은 **인스턴스 정규화(Instance Normalization)** 이다.
 
 ### 특징이 분리된 잠재공간 (Disentanglement latent space)
 
