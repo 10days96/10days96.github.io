@@ -3,6 +3,7 @@ import * as React from "react"
 import { PageProps, Link, graphql } from "gatsby"
 import kebabCase from "lodash.kebabcase"
 import Utterances from "../components/Utterance"
+import TableOfContents from "../components/tableOfContents"
 
 import BlogLayout from "../components/blogLayout"
 import Seo from "../components/seo"
@@ -20,6 +21,7 @@ type DataProps = {
       slug: string
     }
     html: string
+    tableOfContents: string
   }
   excerpt: string
   site: {
@@ -37,12 +39,15 @@ const BlogPostTemplate = ({ data, location }: PageProps<DataProps>) => {
   const postExcerpt: string = data.excerpt
   const postHtml: string = data.markdownRemark.html
   const siteTitle: string = data.site.siteMetadata.title || `Title`
+  const tableOfContent: string = data.markdownRemark.tableOfContents
+
   const { previous, next }: any = data
 
   const color = ['#F4E0D9', '#F0ECE1', '#DAE4CC', '#ACCACC', '#A3B5C1', '#D3D3D3'];
   let color_index = 0;
 
   return (
+    <div className="flex-blog-post">
     <BlogLayout location={location} title={siteTitle}>
       <Seo
         title={postTitle}
@@ -101,6 +106,8 @@ const BlogPostTemplate = ({ data, location }: PageProps<DataProps>) => {
         <Utterances repo='10days96/blog-comment' theme='github-light' />
       </article>
     </BlogLayout>
+    <TableOfContents content={data.markdownRemark.tableOfContents} />
+    </div>
   )
 }
 
@@ -127,6 +134,7 @@ export const pageQuery = graphql`
         description
         tags
       }
+      tableOfContents
     }
     previous: markdownRemark(id: { eq: $previousPostId }) {
       fields {
