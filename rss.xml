@@ -1,4 +1,144 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[AI에 직관을 담고 싶은 개발자 입니다.]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 03 Aug 2022 09:47:45 GMT</lastBuildDate><item><title><![CDATA[[논문] GANSpace: Discovering Interpretable GAN Controls]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/ganspace/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/ganspace/</guid><pubDate>Wed, 10 Aug 2022 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[[논문] StyleGAN2: Analyzing and Improving the Image Quality of StyleGAN]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/StyleGAN2/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/StyleGAN2/</guid><pubDate>Mon, 08 Aug 2022 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[[논문] StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks]]></title><description><![CDATA[논문 소개 저자: Tero Karras, Samuli Laine, Timo Aila paper: https://arxiv.org/abs/1812.04948 CVPR 201…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/StyleGAN/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/StyleGAN/</guid><pubDate>Tue, 02 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;논문 소개&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Gatsby Starter Blog RSS Feed]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 17 Oct 2023 18:07:43 GMT</lastBuildDate><item><title><![CDATA[[일기] 정말 오랜만에 블로그 포스팅]]></title><description><![CDATA[1년차 회고 연구실을 졸업하고 취업한지…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/10.18 일기/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/10.18 일기/</guid><pubDate>Sat, 28 Oct 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h3 id=&quot;1년차-회고&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1%EB%85%84%EC%B0%A8-%ED%9A%8C%EA%B3%A0&quot; aria-label=&quot;1년차 회고 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1년차 회고&lt;/h3&gt;
+&lt;p&gt;연구실을 졸업하고 취업한지 1년이 되었다.&lt;/p&gt;
+&lt;p&gt;작년 이 맘때 쯤에도 연구실 졸업하고 그 동안 했던 일을 정리하기 위해 회고록을 썼었다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fd336e1bc4142b40c1b7eb4e427cb135/e2d3b/stemfont.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 82.27848101265823%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAYAAAAWGF8bAAAACXBIWXMAABYlAAAWJQFJUiTwAAACCUlEQVQ4y4VTWa7aQBD01fnkCByAP76QkLhDHt5wJAQCHgIvY7w/9q2iat5EEytRRirNeNSuruqetpqmgVIJsixDnucoihz7/R6pUijLUs68S9MU5/MZXK/XC/9a1v1+x/V6lWATp9MJF71feHcCY0lG8Eys12v0+32B7/uw2hn1D39bvH8+n3Jm0tFohMVigdlshvl8jrquYTFAw8ysf27DJGVJSMZysDRi2czM/fF4CCGXSaCVm8Qk2m63QrZard6Ex+NRSMzMbA7rEQSBNEuTtxGGodSQStlcclk8aEKt8Ha7YTgcotfr4XA4/KHWVLrb7RDHsQiIokhiLU1CMIgd51oulxgMBmKfCQgdp5Ekidjmvtls3pbbNnQNtf12x81ak0gpJSq5C6Fpo22Jq6oqjMdjeSKslVlPutGvQr8MUciPth2tjJm73S46nY4o+e+k6NErywJ5lqGqSmTZXh7u5XL5Daoh5NuYqKsRc7/fYGXfc8tXTlImyGWu3+RFUcgsN3Ut37RdcOZl7gu502ACUZimSrqlkkSC6roSlZr066uR9/i+z0ARJH6LKCWhElEVrM/PNTzXge+7sO0PuK4Nz3Pg2BPZXceG73sIpj48z4XjTDCZ/EAQTOXennzgZzCVuKosYbGLbD8tMEsUhaKUZaDKOI7EAc90QfBHfkdhiCSJvx0q6fwvL07Enq+6ew8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;연구실에서 진행 했던 프로젝트 중 하나인 스템폰트&quot;
+        title=&quot;연구실에서 진행 했던 프로젝트 중 하나인 스템폰트&quot;
+        src=&quot;/static/fd336e1bc4142b40c1b7eb4e427cb135/f058b/stemfont.png&quot;
+        srcset=&quot;/static/fd336e1bc4142b40c1b7eb4e427cb135/c26ae/stemfont.png 158w,
+/static/fd336e1bc4142b40c1b7eb4e427cb135/6bdcf/stemfont.png 315w,
+/static/fd336e1bc4142b40c1b7eb4e427cb135/f058b/stemfont.png 630w,
+/static/fd336e1bc4142b40c1b7eb4e427cb135/40601/stemfont.png 945w,
+/static/fd336e1bc4142b40c1b7eb4e427cb135/78612/stemfont.png 1260w,
+/static/fd336e1bc4142b40c1b7eb4e427cb135/e2d3b/stemfont.png 1466w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;연구실에서 진행 했던 프로젝트 중 하나인 스템폰트&lt;/p&gt;
+&lt;p&gt;연구실에서 폰트 도메인에서 프로젝트를 했고 그 당시에 굉장히 핫 했던 AI를 졸업 논문으로 삼았으나…&lt;/p&gt;
+&lt;p&gt;AI쪽은 일을 하다보니 내 적성과 맞지 않다고 생각이들었고(있는 모델 조금 수정해서 결과 내기…학습  결과 기다리기 등) 그 당시에도 MLops, 프론트, 백엔드 개발에 더 관심이 있어서 졸업 과제를 스템폰트처럼 웹으로 서비스 할 수 있도록 만들거나 블로그를 만들었다~~.(아니 블로그 어떻게 만든거지?)~~&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ac286408bc40380535009c15c1ac09b4/8affb/deep-font.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 76.58227848101265%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABYlAAAWJQFJUiTwAAABkElEQVQ4y6WSaU7DMBCFc3mQCkfqj54ARKGidBGVupLYKYmd1PH6kJ0EpSxFESM9WcnMfPYsEQCkRwZCM+SswH8t4pxjvz/AGIOcK6z3AttYYPvWT+uDQM41Il6WiAkF4JCkEnfPOR7nDOMe8vH30xwHUiFyziHLGCgh2MUFHhccT4s6qNV4ln9T1+/jPThOJSLrLLbbHRbzGZYrgsmyDCUfaBVu9KKZRXzU4Uya0/v33k8r7BKB8Ywhpp8vzOGsAXlXwaG0PWs0pQnKsgClBEXBkVISWtSaMfYcGCcEzhnQd4WHGUMl7WeC1gaDwQDD4RA3t7cYjUa4ur7G6SQanINUHaCf7klIaKNBjrIBmjrU1VDGWNBms4GUEmmahq1ozVfUeSFgm8QWKFX97f+30J+szaukDoOKqaxLdh2gnxYvBKw1nVQX5FzTii+X/Ak8ZieISkEpG/pzSb7cUpjzobgvJb+sSkxXBZ5fOaYX1PVfBPpF7aPJ8g+gD5gsWQ/9AtTGQVQmrI3ooRBfGWhj8QGH1HLXHslwgwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;그때 교수님이 왜 이런거 만드냐 했는데ㅎㅎㅎㅎ…결국 자기 일에 써먹었죠?&quot;
+        title=&quot;그때 교수님이 왜 이런거 만드냐 했는데ㅎㅎㅎㅎ…결국 자기 일에 써먹었죠?&quot;
+        src=&quot;/static/ac286408bc40380535009c15c1ac09b4/f058b/deep-font.png&quot;
+        srcset=&quot;/static/ac286408bc40380535009c15c1ac09b4/c26ae/deep-font.png 158w,
+/static/ac286408bc40380535009c15c1ac09b4/6bdcf/deep-font.png 315w,
+/static/ac286408bc40380535009c15c1ac09b4/f058b/deep-font.png 630w,
+/static/ac286408bc40380535009c15c1ac09b4/40601/deep-font.png 945w,
+/static/ac286408bc40380535009c15c1ac09b4/8affb/deep-font.png 1254w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;그때 교수님이 왜 이런거 만드냐 했는데ㅎㅎㅎㅎ…결국 자기 일에 써먹었죠?&lt;/p&gt;
+&lt;p&gt;그 당시에 MLops를 할 수 있는 회사를 몇군데 찾아서 하나하나씩 쓰고있었는데 1지망,3지망은 안 되고 지인이 있던 2지망이 되었다. 시스템 프로그래밍을 하는 회사로 초봉을 굉장히 높게 부르길래 뒤도 돌아보지 않고 가게 되었다 &lt;del&gt;(뒤는 좀 돌아보지 그랬냐 현수야)&lt;/del&gt;&lt;/p&gt;
+&lt;p&gt;적성에 대한 고민은 많이 했지만 그 당시 여러 집안 사정으로 인하여 돈을 빨리 벌어 독립을 하고 싶었고 지금 회사에 가게 되면 그 꿈을 이룰 수 있었다 물론 그 당시에도 시스템 프로그래밍이라는 분야에 진입한다는 것에 많은 고민이 있었다.&lt;/p&gt;
+&lt;p&gt;하지만 연구실 선배들도 자기가 여기서 했던 경험이나 도메인을 잘 사용할 수 있을거라 생각했지만 아니였다는 얘기를 듣고 용기를 갖고 회사에 입사하게 되었다.&lt;/p&gt;
+&lt;p&gt;그렇게 1년의 시간이 지났고&lt;/p&gt;
+&lt;p&gt;나는 이력서를 다시 쓰게 되었다.&lt;/p&gt;
+&lt;h3 id=&quot;이력서를-다시-쓰게-된-이유&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%A0%A5%EC%84%9C%EB%A5%BC-%EB%8B%A4%EC%8B%9C-%EC%93%B0%EA%B2%8C-%EB%90%9C-%EC%9D%B4%EC%9C%A0&quot; aria-label=&quot;이력서를 다시 쓰게 된 이유 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이력서를 다시 쓰게 된 이유&lt;/h3&gt;
+&lt;p&gt;1년 동안 일을 하게 되면서 나를 좀 더 알 수 있었다.&lt;/p&gt;
+&lt;p&gt;나는 돈 보다는 환경, 분위기에 좀 더 예민한 사람이였다는 것이다.&lt;/p&gt;
+&lt;p&gt;(좀더 수평적 문화인 스타트업에 잘 어울리는거 같다)&lt;/p&gt;
+&lt;p&gt;그리고 시스템 프로그래밍은 익숙하지 않아서 인지 일이 참 재미가 없다고 느꼈다…&lt;/p&gt;
+&lt;p&gt;일에 재미를 느끼려면 80을 알고 20을 채워나가면서 성취감을 얻는 것인데 20(20이나 아나?) 80을 모르는 상태다보니 일에 대한 자신이 떨어진 느낌이였다.(사수한테 뭔가 물어보면 이것도 모르고 저것도 몰라서 원숭이가 된 느낌&lt;del&gt;우끼끼&lt;/del&gt;)&lt;/p&gt;
+&lt;p&gt;그래서 일에 대한 재미가 떨어지고 책임감으로만 회사를 다니게 되니 능률이 더 떨어지는걸 느껴 대학 동기들과 여러 인생 스승님(?)들에게 상담을 통해 이직을 하는게 좋아보인다고 얘기 해줬고 그렇게 이직을 준비하게 되었다.&lt;/p&gt;
+&lt;p&gt;회사에 처음 들어갔을 때도 그동안 휴학도 없이 계속 다녔으니 1년만 쉬자 생각 했었는데 과거의 나는 미래 참 잘 안 거 같다.&lt;/p&gt;
+&lt;h3 id=&quot;이력서를-써보면서&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%A0%A5%EC%84%9C%EB%A5%BC-%EC%8D%A8%EB%B3%B4%EB%A9%B4%EC%84%9C&quot; aria-label=&quot;이력서를 써보면서 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이력서를 써보면서…&lt;/h3&gt;
+&lt;p&gt;완전 이직 준비가 되지 않은 상태에서 무작정 지인이 다니고 있는 회사의 백엔드 신입으로 이력서를 쓰게 되었는데 진짜 1년 동안 놀기만 했다는 걸 느꼈다.&lt;/p&gt;
+&lt;p&gt;이직 관련 얘기를 정리된 글 중에서 충격을 받은 대목이 하나 있었다.&lt;/p&gt;
+&lt;p&gt;어떤 분이 면접을 보러 갔는데 지금 1년 동안 본 개발책이 있냐는 것이었다.&lt;/p&gt;
+&lt;p&gt;나 또한 이 질문에 &lt;del&gt;(긁)&lt;/del&gt; 관통을 당해버렸는데 회사 일이 바쁘고 해당 분야에 대한 정보가 없다는 핑계로 관심있거나 이직하고 싶은 직종의 공부는 하나도 하지 않았던 것을 느꼈다.&lt;/p&gt;
+&lt;p&gt;또한 이력서를 정리하면서 내 경력사항을 보니&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;외부활동 x 대학원에서 AI로 석사 → 시스템 소프트웨어 개발자 → 백엔드 신입으로 변경?&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;이렇게 경력이 이어지지않고 분절되다보니 이력서 피드백으로 면접자 입장에서 할 질문이 없다고 했다.&lt;/p&gt;
+&lt;p&gt;또한 현재 회사에서 했었던 일을 정리 해보니 내가 이걸 해서 수치적으로 이렇게나 좋아졌어요라고 이력서에 적어야 하는데 이런식으로 기록을 하지 않아서인지 이력서에 수치적으로 얼마나 개선 됐는지에 대한 방식으로 적기가 어려웠다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/889ab33dc33e2fff0637015b208dcc3e/1132d/show_and_prove.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 51.26582278481012%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsTAAALEwEAmpwYAAACvklEQVQozz2O308TBwCA7x/YPzFNluzFTd62TOKMe9lMlsxosgwfSPy9RDOXsblJOtRJiLHID6UgLVKB1go9er32zsJdf8D1x/UqLT1bagtYeSBGMWrCgz58y0jcl3yvXz5hfn6e/9R1fcdcLke9XmdlZYVqtcpqo0HGNHnocWMMD5O4M0LO46YUDFJbXcUul7Ftm1qtRiwWQ5AkaSdiWRaVSoWnzSZl+zFra2tsbGzQbDbR4glmh13Yokj2vp/lmWlqmka1scrbN2/Y2tpie3sbWZYRpHCY+4EAejzOomGwublJxS6jKArxeJxSscBy0UKUJGRFJV8oIEUi1Bp1qo9tDCONrmusVG0eWSZCNBJBjcqkEjrZjEE6m0VLF3Yu83mL2voL1GSJ8XEvKX0eI5XEzGaoPGmQyBUpL5fIW0Ws5Wd4psIILo+Xfu80Plmn79YIX+w7yMd7v+J4Zy8dg1MExg8x0NPCuUtdjAVj3BNVOh1X+LTlSz7bf4gLvT66hoZQfK1cdnyN0O26R1ufTPtgjO9/+Ja7V47gv3mKtmuTnHBOILoO0gwLtF+6yKm7Fke7xmg73Io82M6Nqz/zo1PlfHc3pm8Plv8jhIHJEH+GntCjbaDGIoz2nMHxx0l+fVDBEUhTkK6huD/ht4F+HHMvua3XUWe9DP59jI7Ov/hdec6N8WlqageT/bsRrnsecHayyAX/Er0jE7TsbaV1/3f0eKNc94YID3WycP4Ap7uG+CX0lItTBpf/cbJr9+cc+ekkzpkFnG4vqb5zhM58gxCMxPCEUwzPzCHKCtJskEwmjZleIJFMoPgmMEcHuDMRZCxi4ApEiaoqcljCyufIJHXmNI24101y9DbCq1dbfCCTThMURdbX1zHzFuWyTXJxEb84S2npEQktRjIZ58VaA5ZyvC/meWcuwtvX/zf+BRYJYX66wjWbAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;흑흑… 나 진짜 암것도 할 줄 모르나봐…&quot;
+        title=&quot;흑흑… 나 진짜 암것도 할 줄 모르나봐…&quot;
+        src=&quot;/static/889ab33dc33e2fff0637015b208dcc3e/f058b/show_and_prove.png&quot;
+        srcset=&quot;/static/889ab33dc33e2fff0637015b208dcc3e/c26ae/show_and_prove.png 158w,
+/static/889ab33dc33e2fff0637015b208dcc3e/6bdcf/show_and_prove.png 315w,
+/static/889ab33dc33e2fff0637015b208dcc3e/f058b/show_and_prove.png 630w,
+/static/889ab33dc33e2fff0637015b208dcc3e/40601/show_and_prove.png 945w,
+/static/889ab33dc33e2fff0637015b208dcc3e/1132d/show_and_prove.png 1158w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;흑흑… 나 진짜 암것도 할 줄 모르나봐…&lt;/p&gt;
+&lt;p&gt;일단 내부 추천으로 넣어보긴 했으나… 잘 안 될 거 같아 마음의 준비는 했다. &lt;del&gt;(아 떨어지면 하칸 트라이 가야지&lt;/del&gt;)&lt;/p&gt;
+&lt;h3 id=&quot;그래도-느낀점&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EA%B7%B8%EB%9E%98%EB%8F%84-%EB%8A%90%EB%82%80%EC%A0%90&quot; aria-label=&quot;그래도 느낀점 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;그래도 느낀점?&lt;/h3&gt;
+&lt;p&gt;이력서를 써서 내 민낯을 보니 오히려 어떤 점을 채울 수 있는지 알 수 있었다.&lt;/p&gt;
+&lt;p&gt;받은 피드백에서 지금 하는 일과 백엔드 분야는 엮을 수 있어서 개인 포폴을 준비하면 이직을 잘 준비할 수 있을거라는 얘기를 들어 개인 포폴을 준비하면서 이직을 준비해볼 예정이다.&lt;/p&gt;
+&lt;p&gt;그래서 일단 세운 계획은 다음과 같다&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;백엔드 CRUD의 국밥인 게시판 만들기&lt;/li&gt;
+&lt;li&gt;프론트는 재밌으니 이전에 만들었던 gatsby 블로그에 글 정리해서 올리기&lt;/li&gt;
+&lt;li&gt;github도 꾸준히 관리하기&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;백엔드를 하지만 프론트를 다룰 수 있는건 매우 이점이 있다 생각하여 &lt;del&gt;(나 사실 프론트 좋아하나…?)&lt;/del&gt; 계속 공부를 할 예정이다.&lt;/p&gt;
+&lt;p&gt;회사일에 벗어나서 개발 공부를 하니 환기되는 기분도 들고 매우 좋았다.&lt;/p&gt;
+&lt;p&gt;매일매일은 아니라도 꾸준히 공부 정리를 해서 발전해나갈 예정이다.&lt;/p&gt;
+&lt;p&gt;이 글을 1년 지난 후 봤을 때 좋은 기분이 들었으면 좋겠다&lt;/p&gt;</content:encoded></item><item><title><![CDATA[[논문] GANSpace: Discovering Interpretable GAN Controls]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/ganspace/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/ganspace/</guid><pubDate>Wed, 10 Aug 2022 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[[논문] StyleGAN2: Analyzing and Improving the Image Quality of StyleGAN]]></title><link>https://gatsbystarterblogsource.gatsbyjs.io/StyleGAN2/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/StyleGAN2/</guid><pubDate>Mon, 08 Aug 2022 00:00:00 GMT</pubDate><content:encoded></content:encoded></item><item><title><![CDATA[[논문] StyleGAN: A Style-Based Generator Architecture for Generative Adversarial Networks]]></title><description><![CDATA[논문 소개 저자: Tero Karras, Samuli Laine, Timo Aila paper: https://arxiv.org/abs/1812.04948 CVPR 201…]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/StyleGAN/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/StyleGAN/</guid><pubDate>Tue, 02 Aug 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h2 id=&quot;논문-소개&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%85%BC%EB%AC%B8-%EC%86%8C%EA%B0%9C&quot; aria-label=&quot;논문 소개 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;논문 소개&lt;/h2&gt;
 &lt;hr&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;저자&lt;/strong&gt;: Tero Karras, Samuli Laine, Timo Aila&lt;/li&gt;
@@ -12,8 +152,8 @@
 &lt;/ol&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2&gt;사전지식&lt;/h2&gt;
-&lt;h3&gt;GAN&lt;/h3&gt;
+&lt;h2 id=&quot;사전지식&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%82%AC%EC%A0%84%EC%A7%80%EC%8B%9D&quot; aria-label=&quot;사전지식 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;사전지식&lt;/h2&gt;
+&lt;h3 id=&quot;gan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#gan&quot; aria-label=&quot;gan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GAN&lt;/h3&gt;
 &lt;p&gt;GAN 모델은 &lt;a href=&quot;!https://arxiv.org/abs/1406.2661&quot;&gt;2014년 Ian Goodfellow가 제안한 생성 모델&lt;/a&gt;로 후에 나온 생성 모델들은 모두 GAN 구조를 기반으로 했다고 해도 과언이 아니다.&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -115,7 +255,7 @@
     &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;더 자세한 설명은 &lt;a href=&quot;https://dreamgonfly.github.io/blog/gan-explained/&quot;&gt;쉽게 쓰여진 GAN&lt;/a&gt; 글을 보면 좋다. 이해하기 쉬운 설명과 코드까지 있는 좋은 글이다.&lt;/p&gt;
 &lt;p&gt;오늘 GAN의 전반적인 내용을 다루는 것이 아니기 때문에 StyleGAN 이전에 나온 ProGAN에 대해서 먼저 설명해고자 한다.&lt;/p&gt;
-&lt;h3&gt;ProGAN&lt;/h3&gt;
+&lt;h3 id=&quot;progan&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#progan&quot; aria-label=&quot;progan permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;ProGAN&lt;/h3&gt;
 &lt;p&gt;&lt;a href=&quot;https://arxiv.org/abs/1710.10196&quot;&gt;2017년에 나온 ProGAN&lt;/a&gt;은 &lt;strong&gt;생성자와 판별자를 점진적으로 키우면서 고화질의 이미지를 생성하는 모델 구조&lt;/strong&gt;를 제안하였다.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;/0f85592ca63f9b32b65dc33e6a9de84e/fig4_ProGAN.png&quot; alt=&quot;ProGAN&quot;&gt;&lt;/p&gt;
 &lt;p&gt;즉 생성자가 4x4 ... 8x8 ... 16x16 ... 512x512 크기의 이미지를 생성하는 레이어가 학습과정에 추가가 되면 판별자도 이와 대응 되게 레이어가 추가 된다.&lt;/p&gt;
@@ -161,9 +301,9 @@
 &lt;p&gt;우리의 목표는 StyleGAN이기 때문에 자세한 설명은 &lt;a href=&quot;https://towardsdatascience.com/progan-how-nvidia-generated-images-of-unprecedented-quality-51c98ec2cbd2&quot;&gt;ProGAN설명 블로그&lt;/a&gt;를 보면 좋을거 같다. (ProGAN도 설명 할 것이 너무 많다 minibatch나... 모델 구조에 대한 자세한 설명이나.. 글을 따로 써야할 둡)&lt;/p&gt;
 &lt;p&gt;이렇게 고화질의 사람 이미지를 생성하는데에는 좋은 성능을 보여주었으나 이미지 특징 제어가 어렵다는 단점이 있다.&lt;/p&gt;
 &lt;p&gt;그렇다면 ProGAN의 후속 모델은 StyleGAN은 어떻게 이 문제를 해결했는지 정말 본격적으로 알아보자.&lt;/p&gt;
-&lt;h2&gt;본론&lt;/h2&gt;
+&lt;h2 id=&quot;본론&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B3%B8%EB%A1%A0&quot; aria-label=&quot;본론 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;본론&lt;/h2&gt;
 &lt;p&gt;이 부분에서는 StyleGAN이 이전 ProGAN의 문제를 어떻게 해결 했는지 이를 통해서 어떤 결과를 얻었는지에 대해 설명한다.&lt;/p&gt;
-&lt;h3&gt;모델의 구조&lt;/h3&gt;
+&lt;h3 id=&quot;모델의-구조&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AA%A8%EB%8D%B8%EC%9D%98-%EA%B5%AC%EC%A1%B0&quot; aria-label=&quot;모델의 구조 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;모델의 구조&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Mapping Network&lt;/strong&gt;&lt;/p&gt;
@@ -203,25 +343,62 @@
 &lt;/li&gt;
 &lt;li&gt;
 &lt;p&gt;&lt;strong&gt;AdalN&lt;/strong&gt;
-AdalN 기법은 &lt;a href=&quot;https://arxiv.org/abs/1703.06868v2&quot;&gt;Adaptive Instance Normalization(AdalN)&lt;/a&gt;에서 제안된 방법으로 &lt;strong&gt;임의의 스타일 이미지에서 빠르게 스타일 정보를 가져올 수 있는 모델이다.&lt;/strong&gt; 이는 기존의&lt;/p&gt;
+AdalN 기법은 &lt;a href=&quot;https://arxiv.org/abs/1703.06868v2&quot;&gt;Adaptive Instance Normalization(AdalN)&lt;/a&gt;에서 제안된 방법으로 &lt;strong&gt;임의의 스타일 이미지에서 빠르게 스타일 정보를 가져올 수 있는 모델이다.&lt;/strong&gt; 이는 &lt;strong&gt;Style Transfer&lt;/strong&gt;를 하기 위한 방법 인데 풀어서 말하면 &lt;strong&gt;이미지가 가지고 있는 스타일을 얻어 다른 이미지에 적용 한다&lt;/strong&gt;는 것이다. &lt;a href=&quot;https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Style_Transfer_CVPR_2016_paper.pdf&quot;&gt;Style Transfer에 연구 중 하나인&lt;/a&gt;는 CNN 모델을 이용한 Style Transfer 방법이지만 속도가 느리다는 단점이 있었다. 이를 해결하기 위해 AdalN은 인스턴스 정규화(Instance Normalization)과 조건부 인스턴스 정규화(Conditional Instance Normalization) 두 가지 방법을 사용한다.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;인스턴스 정규화(Instance Normalization)&lt;/strong&gt;
+배치 정규화는 채널별로 정규화를 수행하는 것이다. 이때 정규화를 하는 이유는 단순하게 평균과 분산을 구하는 것이 아니라 감마(Scale), 베타(Shift)를 통해 비선형 성질을 유지 하면서 학습 될 수 있게 해준다.
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 630px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/dfcd2b15defebdd63fd45b2227664546/8126d/fig6_batchNormalization.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.632911392405056%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABYlAAAWJQFJUiTwAAABu0lEQVQoz42Ry07bUBCG/QJ9lC54gap9CV6BJ0DqAiqE+gZBVQCxZsOdwgIWUJIFilJlATQktoNvMaAojn187PiS5EczadIggdQjjeZyxv/5xqOsH5ZQPCxj46iM4kEJnB+UsLZ7iR97vzgu7FxgZesnljeP8G3zmP17pnQ8H5XfNfxpqFBbJpr6w9TXmxrUlgEvCCGiBH4YI5AT679pCgB43S4a9/cwjAe0dB2apqHt2LBME7qmwXFsZGmK/znKaDSaJkmaIctzjoMggBACaZoijmNIKbmWJAmGwyHou7eMCbMsg2XbUOs3qN/dotnuwvd9FiSBfr8Pz/M4p94JxKyfxCzYdl1UK9co7F5h7us+Pn0/Z5rBYIA8H7AnSqqRMD0wKzI5U8LHxyfUqhV8WT2BMr+Nj0tn6PV6CMOQCTudDlzXhWVZME0Tvj8efZbuFWGaZTB1FZ9XT/FhYR+L2zXIUExfHpPmTBlJyYSU0/hk9J+p59VSpAiwV75DteFwLsR4KVEUMe3T8zNTmoYB23a4TkIiCHiS/O8y/wlKiTj0kScxqEJN9CptlO5kFHGNlhVKyQJ0Rz2zI78AUFfiwWY6RZ8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;배치정규화&quot;
+        title=&quot;배치정규화&quot;
+        src=&quot;/static/dfcd2b15defebdd63fd45b2227664546/f058b/fig6_batchNormalization.png&quot;
+        srcset=&quot;/static/dfcd2b15defebdd63fd45b2227664546/c26ae/fig6_batchNormalization.png 158w,
+/static/dfcd2b15defebdd63fd45b2227664546/6bdcf/fig6_batchNormalization.png 315w,
+/static/dfcd2b15defebdd63fd45b2227664546/f058b/fig6_batchNormalization.png 630w,
+/static/dfcd2b15defebdd63fd45b2227664546/40601/fig6_batchNormalization.png 945w,
+/static/dfcd2b15defebdd63fd45b2227664546/78612/fig6_batchNormalization.png 1260w,
+/static/dfcd2b15defebdd63fd45b2227664546/8126d/fig6_batchNormalization.png 2316w&quot;
+        sizes=&quot;(max-width: 630px) 100vw, 630px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/li&gt;
+&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3&gt;특징이 분리된 잠재공간 (Disentanglement latent space)&lt;/h3&gt;
-&lt;h3&gt;Style Mixing&lt;/h3&gt;
-&lt;h3&gt;실습&lt;/h3&gt;
+&lt;h3 id=&quot;특징이-분리된-잠재공간-disentanglement-latent-space&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8A%B9%EC%A7%95%EC%9D%B4-%EB%B6%84%EB%A6%AC%EB%90%9C-%EC%9E%A0%EC%9E%AC%EA%B3%B5%EA%B0%84-disentanglement-latent-space&quot; aria-label=&quot;특징이 분리된 잠재공간 disentanglement latent space permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;특징이 분리된 잠재공간 (Disentanglement latent space)&lt;/h3&gt;
+&lt;h3 id=&quot;style-mixing&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#style-mixing&quot; aria-label=&quot;style mixing permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Style Mixing&lt;/h3&gt;
+&lt;h3 id=&quot;실습&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8B%A4%EC%8A%B5&quot; aria-label=&quot;실습 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;실습&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;데이터 준비&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;모델 돌리기&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Style Mixing 실험하기&lt;/strong&gt;&lt;/li&gt;
 &lt;/ol&gt;
-&lt;h2&gt;참고자료&lt;/h2&gt;
+&lt;h2 id=&quot;참고자료&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%B0%B8%EA%B3%A0%EC%9E%90%EB%A3%8C&quot; aria-label=&quot;참고자료 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;참고자료&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;쉽게 쓰여진 GAN: &lt;a href=&quot;https://dreamgonfly.github.io/blog/gan-explained/&quot;&gt;https://dreamgonfly.github.io/blog/gan-explained/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;StyleGAN 포스팅: &lt;a href=&quot;https://happy-jihye.github.io/gan/gan-6/&quot;&gt;https://happy-jihye.github.io/gan/gan-6/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;꼼꼼한 딥러닝 논문 리뷰와 코드 실습(StyleGAN): &lt;a href=&quot;https://www.youtube.com/watch?v=HXgfw3Z5zRo&amp;#x26;t=1979s&quot;&gt;https://www.youtube.com/watch?v=HXgfw3Z5zRo&amp;#x26;t=1979s&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;꼼꼼한 딥러닝 논문 리뷰와 코드 실습(AdalN): &lt;a href=&quot;https://www.youtube.com/watch?v=OM-6zYYRYfg&quot;&gt;https://www.youtube.com/watch?v=OM-6zYYRYfg&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content:encoded></item><item><title><![CDATA[[프로그래머스] k진수에서 소수 개수 구하기]]></title><description><![CDATA[문제 k진수에서 소수 개수 구하기  접근방식 양의 정수 n을 k진수로 변경() 을 기준으로 숫자 자르기(, ,  이기 때문에 그냥 잘라도 됌) 얻은 수들이 소수인지 판별()
-이때 중복을 허용했으므로 중복된 원소가 있어도 삭제하지 않는다. 코드]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/pro_3/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/pro_3/</guid><pubDate>Wed, 27 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;문제&lt;/h1&gt;
+이때 중복을 허용했으므로 중복된 원소가 있어도 삭제하지 않는다. 코드]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/pro_3/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/pro_3/</guid><pubDate>Wed, 27 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;문제&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C&quot; aria-label=&quot;문제 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/92335&quot;&gt;k진수에서 소수 개수 구하기&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
@@ -256,7 +433,7 @@ AdalN 기법은 &lt;a href=&quot;https://arxiv.org/abs/1703.06868v2&quot;&gt;Ada
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;h1&gt;접근방식&lt;/h1&gt;
+&lt;h1 id=&quot;접근방식&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%91%EA%B7%BC%EB%B0%A9%EC%8B%9D&quot; aria-label=&quot;접근방식 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;접근방식&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;양의 정수 n을 k진수로 변경(&lt;code class=&quot;language-text&quot;&gt;change()&lt;/code&gt;)&lt;/p&gt;
@@ -269,7 +446,7 @@ AdalN 기법은 &lt;a href=&quot;https://arxiv.org/abs/1703.06868v2&quot;&gt;Ada
 이때 중복을 허용했으므로 중복된 원소가 있어도 삭제하지 않는다.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1&gt;코드&lt;/h1&gt;
+&lt;h1 id=&quot;코드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%93%9C&quot; aria-label=&quot;코드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;코드&lt;/h1&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; math
 
 solution&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; k&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
@@ -310,9 +487,9 @@ solution&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n&lt;span 
     &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; i &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;range&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;int&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;math&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;sqrt&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
         &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; n &lt;span class=&quot;token operator&quot;&gt;%&lt;/span&gt; i &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
             &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;False&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[프로그래머스] 주차요금계산]]></title><description><![CDATA[문제 주차요금계산 접근 방법 차량 번호와 출차 기록을 딕셔너리에 같이 넣음 출차기록을 파싱하여 주차 시간 계산 출차기록의 길이가 홀수인 경우 -> 11:59를 출차시간으로 계산 짝수인 경우 -> 그냥 파싱 총 주차시간을 더해서 요금 측정 코드]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/pro_2/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/pro_2/</guid><pubDate>Tue, 19 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;문제&lt;/h1&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;True&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[프로그래머스] 주차요금계산]]></title><description><![CDATA[문제 주차요금계산 접근 방법 차량 번호와 출차 기록을 딕셔너리에 같이 넣음 출차기록을 파싱하여 주차 시간 계산 출차기록의 길이가 홀수인 경우 -> 11:59를 출차시간으로 계산 짝수인 경우 -> 그냥 파싱 총 주차시간을 더해서 요금 측정 코드]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/pro_2/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/pro_2/</guid><pubDate>Tue, 19 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;문제&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%AC%B8%EC%A0%9C&quot; aria-label=&quot;문제 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;문제&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&quot;https://school.programmers.co.kr/learn/courses/30/lessons/92341&quot;&gt;주차요금계산&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;접근 방법&lt;/h1&gt;
+&lt;h1 id=&quot;접근-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%91%EA%B7%BC-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;접근 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;접근 방법&lt;/h1&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;차량 번호와 출차 기록을 딕셔너리에 같이 넣음&lt;/p&gt;
@@ -332,7 +509,7 @@ solution&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;n&lt;span 
 &lt;p&gt;총 주차시간을 더해서 요금 측정&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;h1&gt;코드&lt;/h1&gt;
+&lt;h1 id=&quot;코드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%93%9C&quot; aria-label=&quot;코드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;코드&lt;/h1&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; math &lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; ceil
 
 &lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;fees&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; records&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
@@ -384,9 +561,9 @@ car_num_time_dict &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &l
             total_fee &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; basic_fee &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; ceil&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;time &lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt; basic_time&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt; cri_time&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; cri_fee
 
         answer&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;append&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;total_fee&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
-    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; answer&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[프로그래머스] 크레인 인형뽑기 게임]]></title><description><![CDATA[접근 방법 열을 기준으로 순회 코드]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/pro_1/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/pro_1/</guid><pubDate>Tue, 12 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;접근 방법&lt;/h1&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; answer&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[[프로그래머스] 크레인 인형뽑기 게임]]></title><description><![CDATA[접근 방법 열을 기준으로 순회 코드]]></description><link>https://gatsbystarterblogsource.gatsbyjs.io/pro_1/</link><guid isPermaLink="false">https://gatsbystarterblogsource.gatsbyjs.io/pro_1/</guid><pubDate>Tue, 12 Jul 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1 id=&quot;접근-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A0%91%EA%B7%BC-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;접근 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;접근 방법&lt;/h1&gt;
 &lt;p&gt;열을 기준으로 순회&lt;/p&gt;
-&lt;h1&gt;코드&lt;/h1&gt;
+&lt;h1 id=&quot;코드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%93%9C&quot; aria-label=&quot;코드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;코드&lt;/h1&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;solution&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;board&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; moves&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
     answer &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
     bucket &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
